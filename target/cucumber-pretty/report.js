@@ -5,7 +5,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
-  "name": "Verify the Add New button on the Manufacturers Page",
+  "name": "Automate the Add New button on the Manufacturers Page",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -91,7 +91,7 @@ formatter.examples({
   ]
 });
 formatter.background({
-  "name": "Verify the login page",
+  "name": "Automate the login page",
   "description": "",
   "keyword": "Background"
 });
@@ -169,7 +169,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Verify the Add New button on the Manufacturers Page",
+  "name": "Automate the Add New button on the Manufacturers Page",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -257,7 +257,7 @@ formatter.after({
   "status": "passed"
 });
 formatter.background({
-  "name": "Verify the login page",
+  "name": "Automate the login page",
   "description": "",
   "keyword": "Background"
 });
@@ -335,7 +335,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Verify the Add New button on the Manufacturers Page",
+  "name": "Automate the Add New button on the Manufacturers Page",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -423,7 +423,7 @@ formatter.after({
   "status": "passed"
 });
 formatter.background({
-  "name": "Verify the login page",
+  "name": "Automate the login page",
   "description": "",
   "keyword": "Background"
 });
@@ -501,7 +501,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Verify the Add New button on the Manufacturers Page",
+  "name": "Automate the Add New button on the Manufacturers Page",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -589,7 +589,7 @@ formatter.after({
   "status": "passed"
 });
 formatter.background({
-  "name": "Verify the login page",
+  "name": "Automate the login page",
   "description": "",
   "keyword": "Background"
 });
@@ -667,7 +667,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Verify the Add New button on the Manufacturers Page",
+  "name": "Automate the Add New button on the Manufacturers Page",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -755,7 +755,7 @@ formatter.after({
   "status": "passed"
 });
 formatter.background({
-  "name": "Verify the login page",
+  "name": "Automate the login page",
   "description": "",
   "keyword": "Background"
 });
@@ -833,7 +833,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Verify the Add New button on the Manufacturers Page",
+  "name": "Automate the Add New button on the Manufacturers Page",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -921,7 +921,7 @@ formatter.after({
   "status": "passed"
 });
 formatter.background({
-  "name": "Verify the login page",
+  "name": "Automate the login page",
   "description": "",
   "keyword": "Background"
 });
@@ -999,7 +999,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Verify the Add New button on the Manufacturers Page",
+  "name": "Automate the Add New button on the Manufacturers Page",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -1087,7 +1087,7 @@ formatter.after({
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "name": "Verify the Image Manager page",
+  "name": "Automate the Image Manager page",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -1205,7 +1205,7 @@ formatter.examples({
   ]
 });
 formatter.background({
-  "name": "Verify the login page",
+  "name": "Automate the login page",
   "description": "",
   "keyword": "Background"
 });
@@ -1283,7 +1283,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Verify the Image Manager page",
+  "name": "Automate the Image Manager page",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -1531,7 +1531,7 @@ formatter.after({
   "status": "passed"
 });
 formatter.background({
-  "name": "Verify the login page",
+  "name": "Automate the login page",
   "description": "",
   "keyword": "Background"
 });
@@ -1609,7 +1609,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Verify the Sorting functionality on the Manufacturers page",
+  "name": "Automate the Sorting functionality on the Manufacturers page",
   "description": "",
   "keyword": "Scenario"
 });
@@ -1707,7 +1707,7 @@ formatter.after({
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "name": "Verify the Edit button and Save button on the Manufacturers page",
+  "name": "Automate the Edit button and Save button on the Manufacturers page",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -1761,7 +1761,7 @@ formatter.examples({
   ]
 });
 formatter.background({
-  "name": "Verify the login page",
+  "name": "Automate the login page",
   "description": "",
   "keyword": "Background"
 });
@@ -1839,7 +1839,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Verify the Edit button and Save button on the Manufacturers page",
+  "name": "Automate the Edit button and Save button on the Manufacturers page",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -1907,7 +1907,7 @@ formatter.after({
   "status": "passed"
 });
 formatter.background({
-  "name": "Verify the login page",
+  "name": "Automate the login page",
   "description": "",
   "keyword": "Background"
 });
@@ -1985,7 +1985,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Verify the Edit button and Save button on the Manufacturers page",
+  "name": "Automate the Edit button and Save button on the Manufacturers page",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -2053,7 +2053,7 @@ formatter.after({
   "status": "passed"
 });
 formatter.background({
-  "name": "Verify the login page",
+  "name": "Automate the login page",
   "description": "",
   "keyword": "Background"
 });
@@ -2131,7 +2131,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Verify the cancel button on the Add Manufacturers page",
+  "name": "Automate the cancel button on the Add Manufacturers page",
   "description": "",
   "keyword": "Scenario"
 });
@@ -2189,7 +2189,7 @@ formatter.after({
   "status": "passed"
 });
 formatter.background({
-  "name": "Verify the login page",
+  "name": "Automate the login page",
   "description": "",
   "keyword": "Background"
 });
@@ -2267,7 +2267,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Verify the Pagination functionality on the Manufacturers page",
+  "name": "Automate the Pagination functionality on the Manufacturers page",
   "description": "",
   "keyword": "Scenario"
 });
@@ -2335,7 +2335,7 @@ formatter.after({
   "status": "passed"
 });
 formatter.background({
-  "name": "Verify the login page",
+  "name": "Automate the login page",
   "description": "",
   "keyword": "Background"
 });
@@ -2413,7 +2413,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Verify the Bulk action and Delete button on the Manufacturers page",
+  "name": "Automate the Bulk action and Delete button on the Manufacturers page",
   "description": "",
   "keyword": "Scenario"
 });

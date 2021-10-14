@@ -4,14 +4,14 @@
     "elements": [
       {
         "line": 3,
-        "name": "Verify the login page",
+        "name": "Automate the login page",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 14345400,
+              "duration": 12402000,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 4303472200,
+              "duration": 4257748900,
               "status": "passed"
             },
             "line": 5,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 2360762800,
+              "duration": 2350656100,
               "status": "passed"
             },
             "line": 6,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 48744800,
+              "duration": 48979500,
               "status": "passed"
             },
             "line": 7,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 6184430900,
+              "duration": 6199002100,
               "status": "passed"
             },
             "line": 8,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 769604900,
+              "duration": 1088706400,
               "status": "passed"
             },
             "line": 9,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 54854000,
+              "duration": 43128600,
               "status": "passed"
             },
             "line": 10,
@@ -96,11 +96,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-14T04:04:58.423Z",
+        "start_timestamp": "2021-10-14T06:49:07.152Z",
         "before": [
           {
             "result": {
-              "duration": 6771370800,
+              "duration": 8133506400,
               "status": "passed"
             },
             "match": {
@@ -109,13 +109,13 @@
           }
         ],
         "line": 25,
-        "name": "Verify the Add New button on the Manufacturers Page",
+        "name": "Automate the Add New button on the Manufacturers Page",
         "description": "",
-        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-add-new-button-on-the-manufacturers-page;;2",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;automate-the-add-new-button-on-the-manufacturers-page;;2",
         "after": [
           {
             "result": {
-              "duration": 413486000,
+              "duration": 510717600,
               "status": "passed"
             },
             "match": {
@@ -128,7 +128,7 @@
         "steps": [
           {
             "result": {
-              "duration": 31768400,
+              "duration": 27285000,
               "status": "passed"
             },
             "line": 14,
@@ -140,7 +140,7 @@
           },
           {
             "result": {
-              "duration": 976826400,
+              "duration": 1081107700,
               "status": "passed"
             },
             "line": 15,
@@ -152,7 +152,7 @@
           },
           {
             "result": {
-              "duration": 45583400,
+              "duration": 47232700,
               "status": "passed"
             },
             "line": 16,
@@ -164,7 +164,7 @@
           },
           {
             "result": {
-              "duration": 1128034800,
+              "duration": 1103578800,
               "status": "passed"
             },
             "line": 17,
@@ -182,7 +182,7 @@
           },
           {
             "result": {
-              "duration": 75787400,
+              "duration": 44899500,
               "status": "passed"
             },
             "line": 18,
@@ -194,7 +194,7 @@
           },
           {
             "result": {
-              "duration": 1117166200,
+              "duration": 1103909300,
               "status": "passed"
             },
             "line": 19,
@@ -212,7 +212,7 @@
           },
           {
             "result": {
-              "duration": 1252415300,
+              "duration": 1045618200,
               "status": "passed"
             },
             "line": 20,
@@ -224,7 +224,7 @@
           },
           {
             "result": {
-              "duration": 99841500,
+              "duration": 78486800,
               "status": "passed"
             },
             "line": 21,
@@ -238,14 +238,14 @@
       },
       {
         "line": 3,
-        "name": "Verify the login page",
+        "name": "Automate the login page",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 12993700,
+              "duration": 8736100,
               "status": "passed"
             },
             "line": 4,
@@ -257,7 +257,7 @@
           },
           {
             "result": {
-              "duration": 4359477300,
+              "duration": 4224957500,
               "status": "passed"
             },
             "line": 5,
@@ -269,7 +269,7 @@
           },
           {
             "result": {
-              "duration": 2442470800,
+              "duration": 2387524300,
               "status": "passed"
             },
             "line": 6,
@@ -281,7 +281,7 @@
           },
           {
             "result": {
-              "duration": 39652400,
+              "duration": 40461700,
               "status": "passed"
             },
             "line": 7,
@@ -293,7 +293,7 @@
           },
           {
             "result": {
-              "duration": 6217313200,
+              "duration": 6175372700,
               "status": "passed"
             },
             "line": 8,
@@ -305,7 +305,7 @@
           },
           {
             "result": {
-              "duration": 876151500,
+              "duration": 1601968000,
               "status": "passed"
             },
             "line": 9,
@@ -317,7 +317,7 @@
           },
           {
             "result": {
-              "duration": 55405600,
+              "duration": 64474400,
               "status": "passed"
             },
             "line": 10,
@@ -330,11 +330,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-14T04:05:24.088Z",
+        "start_timestamp": "2021-10-14T06:49:34.341Z",
         "before": [
           {
             "result": {
-              "duration": 6118577400,
+              "duration": 5698984800,
               "status": "passed"
             },
             "match": {
@@ -343,13 +343,13 @@
           }
         ],
         "line": 26,
-        "name": "Verify the Add New button on the Manufacturers Page",
+        "name": "Automate the Add New button on the Manufacturers Page",
         "description": "",
-        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-add-new-button-on-the-manufacturers-page;;3",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;automate-the-add-new-button-on-the-manufacturers-page;;3",
         "after": [
           {
             "result": {
-              "duration": 451049600,
+              "duration": 377442600,
               "status": "passed"
             },
             "match": {
@@ -362,7 +362,7 @@
         "steps": [
           {
             "result": {
-              "duration": 34301800,
+              "duration": 33450600,
               "status": "passed"
             },
             "line": 14,
@@ -374,7 +374,7 @@
           },
           {
             "result": {
-              "duration": 1063717900,
+              "duration": 896077200,
               "status": "passed"
             },
             "line": 15,
@@ -386,7 +386,7 @@
           },
           {
             "result": {
-              "duration": 36905300,
+              "duration": 39443000,
               "status": "passed"
             },
             "line": 16,
@@ -398,7 +398,7 @@
           },
           {
             "result": {
-              "duration": 1117721000,
+              "duration": 1102384600,
               "status": "passed"
             },
             "line": 17,
@@ -416,7 +416,7 @@
           },
           {
             "result": {
-              "duration": 80725600,
+              "duration": 47752300,
               "status": "passed"
             },
             "line": 18,
@@ -428,7 +428,7 @@
           },
           {
             "result": {
-              "duration": 1204731400,
+              "duration": 1103891800,
               "status": "passed"
             },
             "line": 19,
@@ -446,7 +446,7 @@
           },
           {
             "result": {
-              "duration": 1091722300,
+              "duration": 1104376900,
               "status": "passed"
             },
             "line": 20,
@@ -458,7 +458,7 @@
           },
           {
             "result": {
-              "duration": 60419200,
+              "duration": 57045400,
               "status": "passed"
             },
             "line": 21,
@@ -472,14 +472,14 @@
       },
       {
         "line": 3,
-        "name": "Verify the login page",
+        "name": "Automate the login page",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 18311300,
+              "duration": 8829700,
               "status": "passed"
             },
             "line": 4,
@@ -491,7 +491,7 @@
           },
           {
             "result": {
-              "duration": 4498085600,
+              "duration": 4238659600,
               "status": "passed"
             },
             "line": 5,
@@ -503,7 +503,7 @@
           },
           {
             "result": {
-              "duration": 2468661500,
+              "duration": 2392146700,
               "status": "passed"
             },
             "line": 6,
@@ -515,7 +515,7 @@
           },
           {
             "result": {
-              "duration": 47487700,
+              "duration": 41484900,
               "status": "passed"
             },
             "line": 7,
@@ -527,7 +527,7 @@
           },
           {
             "result": {
-              "duration": 6214007800,
+              "duration": 6189295900,
               "status": "passed"
             },
             "line": 8,
@@ -539,7 +539,7 @@
           },
           {
             "result": {
-              "duration": 767585100,
+              "duration": 1497094200,
               "status": "passed"
             },
             "line": 9,
@@ -551,7 +551,7 @@
           },
           {
             "result": {
-              "duration": 54883200,
+              "duration": 51077500,
               "status": "passed"
             },
             "line": 10,
@@ -564,11 +564,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-14T04:05:49.356Z",
+        "start_timestamp": "2021-10-14T06:49:59.309Z",
         "before": [
           {
             "result": {
-              "duration": 5404976300,
+              "duration": 6052752700,
               "status": "passed"
             },
             "match": {
@@ -577,13 +577,13 @@
           }
         ],
         "line": 27,
-        "name": "Verify the Add New button on the Manufacturers Page",
+        "name": "Automate the Add New button on the Manufacturers Page",
         "description": "",
-        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-add-new-button-on-the-manufacturers-page;;4",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;automate-the-add-new-button-on-the-manufacturers-page;;4",
         "after": [
           {
             "result": {
-              "duration": 351166400,
+              "duration": 373965200,
               "status": "passed"
             },
             "match": {
@@ -596,7 +596,7 @@
         "steps": [
           {
             "result": {
-              "duration": 49168700,
+              "duration": 23481700,
               "status": "passed"
             },
             "line": 14,
@@ -608,7 +608,7 @@
           },
           {
             "result": {
-              "duration": 1081406200,
+              "duration": 945658800,
               "status": "passed"
             },
             "line": 15,
@@ -620,7 +620,7 @@
           },
           {
             "result": {
-              "duration": 52065600,
+              "duration": 50763600,
               "status": "passed"
             },
             "line": 16,
@@ -632,7 +632,7 @@
           },
           {
             "result": {
-              "duration": 1143366400,
+              "duration": 1109883700,
               "status": "passed"
             },
             "line": 17,
@@ -650,7 +650,7 @@
           },
           {
             "result": {
-              "duration": 50431400,
+              "duration": 71023100,
               "status": "passed"
             },
             "line": 18,
@@ -662,7 +662,7 @@
           },
           {
             "result": {
-              "duration": 1152797600,
+              "duration": 1099016300,
               "status": "passed"
             },
             "line": 19,
@@ -680,7 +680,7 @@
           },
           {
             "result": {
-              "duration": 1232835100,
+              "duration": 1020968100,
               "status": "passed"
             },
             "line": 20,
@@ -692,7 +692,7 @@
           },
           {
             "result": {
-              "duration": 69729800,
+              "duration": 61111400,
               "status": "passed"
             },
             "line": 21,
@@ -706,14 +706,14 @@
       },
       {
         "line": 3,
-        "name": "Verify the login page",
+        "name": "Automate the login page",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 13859200,
+              "duration": 9746000,
               "status": "passed"
             },
             "line": 4,
@@ -725,7 +725,7 @@
           },
           {
             "result": {
-              "duration": 4491219700,
+              "duration": 4230189600,
               "status": "passed"
             },
             "line": 5,
@@ -737,7 +737,7 @@
           },
           {
             "result": {
-              "duration": 3001513700,
+              "duration": 2300531100,
               "status": "passed"
             },
             "line": 6,
@@ -749,7 +749,7 @@
           },
           {
             "result": {
-              "duration": 52541600,
+              "duration": 53248000,
               "status": "passed"
             },
             "line": 7,
@@ -761,7 +761,7 @@
           },
           {
             "result": {
-              "duration": 6189362700,
+              "duration": 6223224300,
               "status": "passed"
             },
             "line": 8,
@@ -773,7 +773,7 @@
           },
           {
             "result": {
-              "duration": 766036000,
+              "duration": 1250031100,
               "status": "passed"
             },
             "line": 9,
@@ -785,7 +785,7 @@
           },
           {
             "result": {
-              "duration": 69190500,
+              "duration": 48583300,
               "status": "passed"
             },
             "line": 10,
@@ -798,11 +798,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-14T04:06:14.016Z",
+        "start_timestamp": "2021-10-14T06:50:24.542Z",
         "before": [
           {
             "result": {
-              "duration": 6301483800,
+              "duration": 5553200400,
               "status": "passed"
             },
             "match": {
@@ -811,13 +811,13 @@
           }
         ],
         "line": 28,
-        "name": "Verify the Add New button on the Manufacturers Page",
+        "name": "Automate the Add New button on the Manufacturers Page",
         "description": "",
-        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-add-new-button-on-the-manufacturers-page;;5",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;automate-the-add-new-button-on-the-manufacturers-page;;5",
         "after": [
           {
             "result": {
-              "duration": 361209800,
+              "duration": 396419600,
               "status": "passed"
             },
             "match": {
@@ -830,7 +830,7 @@
         "steps": [
           {
             "result": {
-              "duration": 24476500,
+              "duration": 22724800,
               "status": "passed"
             },
             "line": 14,
@@ -842,7 +842,7 @@
           },
           {
             "result": {
-              "duration": 942358700,
+              "duration": 901542200,
               "status": "passed"
             },
             "line": 15,
@@ -854,7 +854,7 @@
           },
           {
             "result": {
-              "duration": 64248400,
+              "duration": 44390900,
               "status": "passed"
             },
             "line": 16,
@@ -866,7 +866,7 @@
           },
           {
             "result": {
-              "duration": 1110580000,
+              "duration": 1101498100,
               "status": "passed"
             },
             "line": 17,
@@ -884,7 +884,7 @@
           },
           {
             "result": {
-              "duration": 47202100,
+              "duration": 58372100,
               "status": "passed"
             },
             "line": 18,
@@ -896,7 +896,7 @@
           },
           {
             "result": {
-              "duration": 1102516400,
+              "duration": 1093052800,
               "status": "passed"
             },
             "line": 19,
@@ -914,7 +914,7 @@
           },
           {
             "result": {
-              "duration": 1150851300,
+              "duration": 1062794700,
               "status": "passed"
             },
             "line": 20,
@@ -926,7 +926,7 @@
           },
           {
             "result": {
-              "duration": 49866900,
+              "duration": 50315600,
               "status": "passed"
             },
             "line": 21,
@@ -940,14 +940,14 @@
       },
       {
         "line": 3,
-        "name": "Verify the login page",
+        "name": "Automate the login page",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 16058600,
+              "duration": 15704700,
               "status": "passed"
             },
             "line": 4,
@@ -959,7 +959,7 @@
           },
           {
             "result": {
-              "duration": 4392776900,
+              "duration": 4273735800,
               "status": "passed"
             },
             "line": 5,
@@ -971,7 +971,7 @@
           },
           {
             "result": {
-              "duration": 2511300500,
+              "duration": 2664120100,
               "status": "passed"
             },
             "line": 6,
@@ -983,7 +983,7 @@
           },
           {
             "result": {
-              "duration": 47030400,
+              "duration": 39998800,
               "status": "passed"
             },
             "line": 7,
@@ -995,7 +995,7 @@
           },
           {
             "result": {
-              "duration": 6206776500,
+              "duration": 6232532300,
               "status": "passed"
             },
             "line": 8,
@@ -1007,7 +1007,7 @@
           },
           {
             "result": {
-              "duration": 1583526900,
+              "duration": 640747100,
               "status": "passed"
             },
             "line": 9,
@@ -1019,7 +1019,7 @@
           },
           {
             "result": {
-              "duration": 67580900,
+              "duration": 51178700,
               "status": "passed"
             },
             "line": 10,
@@ -1032,11 +1032,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-14T04:06:39.758Z",
+        "start_timestamp": "2021-10-14T06:50:48.946Z",
         "before": [
           {
             "result": {
-              "duration": 5603686900,
+              "duration": 6590374300,
               "status": "passed"
             },
             "match": {
@@ -1045,13 +1045,13 @@
           }
         ],
         "line": 29,
-        "name": "Verify the Add New button on the Manufacturers Page",
+        "name": "Automate the Add New button on the Manufacturers Page",
         "description": "",
-        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-add-new-button-on-the-manufacturers-page;;6",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;automate-the-add-new-button-on-the-manufacturers-page;;6",
         "after": [
           {
             "result": {
-              "duration": 316721000,
+              "duration": 524617200,
               "status": "passed"
             },
             "match": {
@@ -1064,7 +1064,7 @@
         "steps": [
           {
             "result": {
-              "duration": 24391500,
+              "duration": 23497200,
               "status": "passed"
             },
             "line": 14,
@@ -1076,7 +1076,7 @@
           },
           {
             "result": {
-              "duration": 975297800,
+              "duration": 899343200,
               "status": "passed"
             },
             "line": 15,
@@ -1088,7 +1088,7 @@
           },
           {
             "result": {
-              "duration": 54886500,
+              "duration": 41977300,
               "status": "passed"
             },
             "line": 16,
@@ -1100,7 +1100,7 @@
           },
           {
             "result": {
-              "duration": 1083384000,
+              "duration": 1075377300,
               "status": "passed"
             },
             "line": 17,
@@ -1118,7 +1118,7 @@
           },
           {
             "result": {
-              "duration": 103957300,
+              "duration": 61253300,
               "status": "passed"
             },
             "line": 18,
@@ -1130,7 +1130,7 @@
           },
           {
             "result": {
-              "duration": 1168386100,
+              "duration": 1086323100,
               "status": "passed"
             },
             "line": 19,
@@ -1148,7 +1148,7 @@
           },
           {
             "result": {
-              "duration": 846748100,
+              "duration": 608331500,
               "status": "passed"
             },
             "line": 20,
@@ -1160,7 +1160,7 @@
           },
           {
             "result": {
-              "duration": 89408100,
+              "duration": 75159100,
               "status": "passed"
             },
             "line": 21,
@@ -1174,14 +1174,14 @@
       },
       {
         "line": 3,
-        "name": "Verify the login page",
+        "name": "Automate the login page",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 17187500,
+              "duration": 11899900,
               "status": "passed"
             },
             "line": 4,
@@ -1193,7 +1193,7 @@
           },
           {
             "result": {
-              "duration": 4322041800,
+              "duration": 4221777100,
               "status": "passed"
             },
             "line": 5,
@@ -1205,7 +1205,7 @@
           },
           {
             "result": {
-              "duration": 2288240800,
+              "duration": 2358834900,
               "status": "passed"
             },
             "line": 6,
@@ -1217,7 +1217,7 @@
           },
           {
             "result": {
-              "duration": 52627300,
+              "duration": 54446100,
               "status": "passed"
             },
             "line": 7,
@@ -1229,7 +1229,7 @@
           },
           {
             "result": {
-              "duration": 6237093000,
+              "duration": 6205593000,
               "status": "passed"
             },
             "line": 8,
@@ -1241,7 +1241,7 @@
           },
           {
             "result": {
-              "duration": 987265400,
+              "duration": 930399600,
               "status": "passed"
             },
             "line": 9,
@@ -1253,7 +1253,7 @@
           },
           {
             "result": {
-              "duration": 51116300,
+              "duration": 41716500,
               "status": "passed"
             },
             "line": 10,
@@ -1266,11 +1266,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-14T04:07:04.853Z",
+        "start_timestamp": "2021-10-14T06:51:13.853Z",
         "before": [
           {
             "result": {
-              "duration": 5797474400,
+              "duration": 5510422300,
               "status": "passed"
             },
             "match": {
@@ -1279,13 +1279,13 @@
           }
         ],
         "line": 30,
-        "name": "Verify the Add New button on the Manufacturers Page",
+        "name": "Automate the Add New button on the Manufacturers Page",
         "description": "",
-        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-add-new-button-on-the-manufacturers-page;;7",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;automate-the-add-new-button-on-the-manufacturers-page;;7",
         "after": [
           {
             "result": {
-              "duration": 351257900,
+              "duration": 342536400,
               "status": "passed"
             },
             "match": {
@@ -1298,7 +1298,7 @@
         "steps": [
           {
             "result": {
-              "duration": 23850700,
+              "duration": 22850300,
               "status": "passed"
             },
             "line": 14,
@@ -1310,7 +1310,7 @@
           },
           {
             "result": {
-              "duration": 1065269100,
+              "duration": 1051310700,
               "status": "passed"
             },
             "line": 15,
@@ -1322,7 +1322,7 @@
           },
           {
             "result": {
-              "duration": 85361100,
+              "duration": 39848600,
               "status": "passed"
             },
             "line": 16,
@@ -1334,7 +1334,7 @@
           },
           {
             "result": {
-              "duration": 1226682300,
+              "duration": 1086585500,
               "status": "passed"
             },
             "line": 17,
@@ -1352,7 +1352,7 @@
           },
           {
             "result": {
-              "duration": 105496600,
+              "duration": 72932000,
               "status": "passed"
             },
             "line": 18,
@@ -1364,7 +1364,7 @@
           },
           {
             "result": {
-              "duration": 1117021100,
+              "duration": 1086552100,
               "status": "passed"
             },
             "line": 19,
@@ -1382,7 +1382,7 @@
           },
           {
             "result": {
-              "duration": 959000900,
+              "duration": 630303300,
               "status": "passed"
             },
             "line": 20,
@@ -1394,7 +1394,7 @@
           },
           {
             "result": {
-              "duration": 59831500,
+              "duration": 53691600,
               "status": "passed"
             },
             "line": 21,
@@ -1408,14 +1408,14 @@
       },
       {
         "line": 3,
-        "name": "Verify the login page",
+        "name": "Automate the login page",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 18213800,
+              "duration": 11213300,
               "status": "passed"
             },
             "line": 4,
@@ -1427,7 +1427,7 @@
           },
           {
             "result": {
-              "duration": 4304594600,
+              "duration": 4259049500,
               "status": "passed"
             },
             "line": 5,
@@ -1439,7 +1439,7 @@
           },
           {
             "result": {
-              "duration": 2336397500,
+              "duration": 2414030400,
               "status": "passed"
             },
             "line": 6,
@@ -1451,7 +1451,7 @@
           },
           {
             "result": {
-              "duration": 43218600,
+              "duration": 48945600,
               "status": "passed"
             },
             "line": 7,
@@ -1463,7 +1463,7 @@
           },
           {
             "result": {
-              "duration": 6246276100,
+              "duration": 6167571600,
               "status": "passed"
             },
             "line": 8,
@@ -1475,7 +1475,7 @@
           },
           {
             "result": {
-              "duration": 828390900,
+              "duration": 2849045500,
               "status": "passed"
             },
             "line": 9,
@@ -1487,7 +1487,7 @@
           },
           {
             "result": {
-              "duration": 62437700,
+              "duration": 61171000,
               "status": "passed"
             },
             "line": 10,
@@ -1500,11 +1500,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-14T04:07:29.605Z",
+        "start_timestamp": "2021-10-14T06:51:37.580Z",
         "before": [
           {
             "result": {
-              "duration": 5722294400,
+              "duration": 5707906100,
               "status": "passed"
             },
             "match": {
@@ -1513,13 +1513,13 @@
           }
         ],
         "line": 62,
-        "name": "Verify the Image Manager page",
+        "name": "Automate the Image Manager page",
         "description": "",
-        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-image-manager-page;;2",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;automate-the-image-manager-page;;2",
         "after": [
           {
             "result": {
-              "duration": 431733300,
+              "duration": 456619700,
               "status": "passed"
             },
             "match": {
@@ -1532,7 +1532,7 @@
         "steps": [
           {
             "result": {
-              "duration": 25753100,
+              "duration": 22161400,
               "status": "passed"
             },
             "line": 35,
@@ -1544,7 +1544,7 @@
           },
           {
             "result": {
-              "duration": 996581000,
+              "duration": 1323810600,
               "status": "passed"
             },
             "line": 36,
@@ -1556,7 +1556,7 @@
           },
           {
             "result": {
-              "duration": 50077200,
+              "duration": 37581600,
               "status": "passed"
             },
             "line": 37,
@@ -1568,7 +1568,7 @@
           },
           {
             "result": {
-              "duration": 4212927600,
+              "duration": 4118359500,
               "status": "passed"
             },
             "line": 38,
@@ -1580,7 +1580,7 @@
           },
           {
             "result": {
-              "duration": 2191190500,
+              "duration": 2120930100,
               "status": "passed"
             },
             "line": 39,
@@ -1592,7 +1592,7 @@
           },
           {
             "result": {
-              "duration": 70278700,
+              "duration": 60233900,
               "status": "passed"
             },
             "line": 40,
@@ -1604,7 +1604,7 @@
           },
           {
             "result": {
-              "duration": 2099209300,
+              "duration": 2066342100,
               "status": "passed"
             },
             "line": 41,
@@ -1616,7 +1616,7 @@
           },
           {
             "result": {
-              "duration": 2194243800,
+              "duration": 2098429200,
               "status": "passed"
             },
             "line": 42,
@@ -1628,7 +1628,7 @@
           },
           {
             "result": {
-              "duration": 1207877800,
+              "duration": 1148291600,
               "status": "passed"
             },
             "line": 43,
@@ -1646,7 +1646,7 @@
           },
           {
             "result": {
-              "duration": 2193713000,
+              "duration": 2080364200,
               "status": "passed"
             },
             "line": 44,
@@ -1658,7 +1658,7 @@
           },
           {
             "result": {
-              "duration": 5031323300,
+              "duration": 5031606900,
               "status": "passed"
             },
             "line": 45,
@@ -1670,7 +1670,7 @@
           },
           {
             "result": {
-              "duration": 3164769400,
+              "duration": 3129458800,
               "status": "passed"
             },
             "line": 46,
@@ -1688,7 +1688,7 @@
           },
           {
             "result": {
-              "duration": 4218804300,
+              "duration": 4088902800,
               "status": "passed"
             },
             "line": 47,
@@ -1700,7 +1700,7 @@
           },
           {
             "result": {
-              "duration": 110707500,
+              "duration": 64100400,
               "status": "passed"
             },
             "line": 48,
@@ -1712,7 +1712,7 @@
           },
           {
             "result": {
-              "duration": 1116044900,
+              "duration": 1079661900,
               "status": "passed"
             },
             "line": 49,
@@ -1724,7 +1724,7 @@
           },
           {
             "result": {
-              "duration": 1099909500,
+              "duration": 1096926500,
               "status": "passed"
             },
             "line": 50,
@@ -1736,7 +1736,7 @@
           },
           {
             "result": {
-              "duration": 1107552400,
+              "duration": 1100525400,
               "status": "passed"
             },
             "line": 51,
@@ -1748,7 +1748,7 @@
           },
           {
             "result": {
-              "duration": 2031846000,
+              "duration": 2029568900,
               "status": "passed"
             },
             "line": 52,
@@ -1760,7 +1760,7 @@
           },
           {
             "result": {
-              "duration": 6020267400,
+              "duration": 6027789900,
               "status": "passed"
             },
             "line": 53,
@@ -1772,7 +1772,7 @@
           },
           {
             "result": {
-              "duration": 5040077700,
+              "duration": 5065414900,
               "status": "passed"
             },
             "line": 54,
@@ -1784,7 +1784,7 @@
           },
           {
             "result": {
-              "duration": 5140523300,
+              "duration": 5113528500,
               "status": "passed"
             },
             "line": 55,
@@ -1796,7 +1796,7 @@
           },
           {
             "result": {
-              "duration": 55860700,
+              "duration": 52050000,
               "status": "passed"
             },
             "line": 56,
@@ -1808,7 +1808,7 @@
           },
           {
             "result": {
-              "duration": 5074235200,
+              "duration": 5076797900,
               "status": "passed"
             },
             "line": 57,
@@ -1820,7 +1820,7 @@
           },
           {
             "result": {
-              "duration": 112478200,
+              "duration": 71407900,
               "status": "passed"
             },
             "line": 58,
@@ -1834,14 +1834,14 @@
       },
       {
         "line": 3,
-        "name": "Verify the login page",
+        "name": "Automate the login page",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 15905800,
+              "duration": 8366200,
               "status": "passed"
             },
             "line": 4,
@@ -1853,7 +1853,7 @@
           },
           {
             "result": {
-              "duration": 4449603800,
+              "duration": 4263970500,
               "status": "passed"
             },
             "line": 5,
@@ -1865,7 +1865,7 @@
           },
           {
             "result": {
-              "duration": 2170603200,
+              "duration": 2365223000,
               "status": "passed"
             },
             "line": 6,
@@ -1877,7 +1877,7 @@
           },
           {
             "result": {
-              "duration": 52156600,
+              "duration": 51794200,
               "status": "passed"
             },
             "line": 7,
@@ -1889,7 +1889,7 @@
           },
           {
             "result": {
-              "duration": 6187638100,
+              "duration": 6230623400,
               "status": "passed"
             },
             "line": 8,
@@ -1901,7 +1901,7 @@
           },
           {
             "result": {
-              "duration": 892300700,
+              "duration": 1435945000,
               "status": "passed"
             },
             "line": 9,
@@ -1913,7 +1913,7 @@
           },
           {
             "result": {
-              "duration": 62999100,
+              "duration": 58432600,
               "status": "passed"
             },
             "line": 10,
@@ -1926,11 +1926,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-14T04:08:44.171Z",
+        "start_timestamp": "2021-10-14T06:52:53.670Z",
         "before": [
           {
             "result": {
-              "duration": 5582307700,
+              "duration": 6569836500,
               "status": "passed"
             },
             "match": {
@@ -1939,13 +1939,13 @@
           }
         ],
         "line": 65,
-        "name": "Verify the Sorting functionality on the Manufacturers page",
+        "name": "Automate the Sorting functionality on the Manufacturers page",
         "description": "",
-        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-sorting-functionality-on-the-manufacturers-page",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;automate-the-sorting-functionality-on-the-manufacturers-page",
         "after": [
           {
             "result": {
-              "duration": 427496600,
+              "duration": 299095100,
               "status": "passed"
             },
             "match": {
@@ -1958,7 +1958,7 @@
         "steps": [
           {
             "result": {
-              "duration": 27682800,
+              "duration": 26260500,
               "status": "passed"
             },
             "line": 66,
@@ -1970,7 +1970,7 @@
           },
           {
             "result": {
-              "duration": 5894473300,
+              "duration": 5750647900,
               "status": "passed"
             },
             "line": 67,
@@ -1982,7 +1982,7 @@
           },
           {
             "result": {
-              "duration": 99712500,
+              "duration": 85079400,
               "status": "passed"
             },
             "line": 68,
@@ -1994,7 +1994,7 @@
           },
           {
             "result": {
-              "duration": 5690763200,
+              "duration": 5690501100,
               "status": "passed"
             },
             "line": 69,
@@ -2006,7 +2006,7 @@
           },
           {
             "result": {
-              "duration": 38317000,
+              "duration": 40014800,
               "status": "passed"
             },
             "line": 70,
@@ -2018,7 +2018,7 @@
           },
           {
             "result": {
-              "duration": 5858561300,
+              "duration": 5675029200,
               "status": "passed"
             },
             "line": 71,
@@ -2030,7 +2030,7 @@
           },
           {
             "result": {
-              "duration": 69344400,
+              "duration": 241278100,
               "status": "passed"
             },
             "line": 72,
@@ -2042,7 +2042,7 @@
           },
           {
             "result": {
-              "duration": 5847128700,
+              "duration": 5904739900,
               "status": "passed"
             },
             "line": 73,
@@ -2054,7 +2054,7 @@
           },
           {
             "result": {
-              "duration": 135305700,
+              "duration": 74856800,
               "status": "passed"
             },
             "line": 74,
@@ -2068,14 +2068,14 @@
       },
       {
         "line": 3,
-        "name": "Verify the login page",
+        "name": "Automate the login page",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 14834300,
+              "duration": 12363100,
               "status": "passed"
             },
             "line": 4,
@@ -2087,7 +2087,7 @@
           },
           {
             "result": {
-              "duration": 4374290200,
+              "duration": 4234527500,
               "status": "passed"
             },
             "line": 5,
@@ -2099,7 +2099,7 @@
           },
           {
             "result": {
-              "duration": 2065022100,
+              "duration": 2424428800,
               "status": "passed"
             },
             "line": 6,
@@ -2111,7 +2111,7 @@
           },
           {
             "result": {
-              "duration": 57780500,
+              "duration": 46886200,
               "status": "passed"
             },
             "line": 7,
@@ -2123,7 +2123,7 @@
           },
           {
             "result": {
-              "duration": 6223062700,
+              "duration": 6195359000,
               "status": "passed"
             },
             "line": 8,
@@ -2135,7 +2135,7 @@
           },
           {
             "result": {
-              "duration": 702159700,
+              "duration": 845286600,
               "status": "passed"
             },
             "line": 9,
@@ -2147,7 +2147,7 @@
           },
           {
             "result": {
-              "duration": 48102000,
+              "duration": 56345300,
               "status": "passed"
             },
             "line": 10,
@@ -2160,11 +2160,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-14T04:09:27.676Z",
+        "start_timestamp": "2021-10-14T06:53:38.447Z",
         "before": [
           {
             "result": {
-              "duration": 6088063300,
+              "duration": 6198441300,
               "status": "passed"
             },
             "match": {
@@ -2173,13 +2173,13 @@
           }
         ],
         "line": 87,
-        "name": "Verify the Edit button and Save button on the Manufacturers page",
+        "name": "Automate the Edit button and Save button on the Manufacturers page",
         "description": "",
-        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-edit-button-and-save-button-on-the-manufacturers-page;;2",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;automate-the-edit-button-and-save-button-on-the-manufacturers-page;;2",
         "after": [
           {
             "result": {
-              "duration": 376817400,
+              "duration": 533830900,
               "status": "passed"
             },
             "match": {
@@ -2192,7 +2192,7 @@
         "steps": [
           {
             "result": {
-              "duration": 23392900,
+              "duration": 21769700,
               "status": "passed"
             },
             "line": 78,
@@ -2204,7 +2204,7 @@
           },
           {
             "result": {
-              "duration": 3014372600,
+              "duration": 3076269500,
               "status": "passed"
             },
             "line": 79,
@@ -2216,7 +2216,7 @@
           },
           {
             "result": {
-              "duration": 84576800,
+              "duration": 63267200,
               "status": "passed"
             },
             "line": 80,
@@ -2228,7 +2228,7 @@
           },
           {
             "result": {
-              "duration": 6547055500,
+              "duration": 6475578100,
               "status": "passed"
             },
             "line": 81,
@@ -2250,7 +2250,7 @@
           },
           {
             "result": {
-              "duration": 1740756500,
+              "duration": 1789291400,
               "status": "passed"
             },
             "line": 82,
@@ -2262,7 +2262,7 @@
           },
           {
             "result": {
-              "duration": 77140800,
+              "duration": 125750100,
               "status": "passed"
             },
             "line": 83,
@@ -2276,14 +2276,14 @@
       },
       {
         "line": 3,
-        "name": "Verify the login page",
+        "name": "Automate the login page",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 16006000,
+              "duration": 7882100,
               "status": "passed"
             },
             "line": 4,
@@ -2295,7 +2295,7 @@
           },
           {
             "result": {
-              "duration": 4403585100,
+              "duration": 4217294300,
               "status": "passed"
             },
             "line": 5,
@@ -2307,7 +2307,7 @@
           },
           {
             "result": {
-              "duration": 2194603800,
+              "duration": 2412059800,
               "status": "passed"
             },
             "line": 6,
@@ -2319,7 +2319,7 @@
           },
           {
             "result": {
-              "duration": 43058300,
+              "duration": 43976100,
               "status": "passed"
             },
             "line": 7,
@@ -2331,7 +2331,7 @@
           },
           {
             "result": {
-              "duration": 6172533900,
+              "duration": 6200327500,
               "status": "passed"
             },
             "line": 8,
@@ -2343,7 +2343,7 @@
           },
           {
             "result": {
-              "duration": 757427800,
+              "duration": 1471040300,
               "status": "passed"
             },
             "line": 9,
@@ -2355,7 +2355,7 @@
           },
           {
             "result": {
-              "duration": 60171000,
+              "duration": 53458500,
               "status": "passed"
             },
             "line": 10,
@@ -2368,11 +2368,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-14T04:09:59.116Z",
+        "start_timestamp": "2021-10-14T06:54:10.550Z",
         "before": [
           {
             "result": {
-              "duration": 5433564600,
+              "duration": 5375954900,
               "status": "passed"
             },
             "match": {
@@ -2381,13 +2381,13 @@
           }
         ],
         "line": 88,
-        "name": "Verify the Edit button and Save button on the Manufacturers page",
+        "name": "Automate the Edit button and Save button on the Manufacturers page",
         "description": "",
-        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-edit-button-and-save-button-on-the-manufacturers-page;;3",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;automate-the-edit-button-and-save-button-on-the-manufacturers-page;;3",
         "after": [
           {
             "result": {
-              "duration": 278034200,
+              "duration": 471970200,
               "status": "passed"
             },
             "match": {
@@ -2400,7 +2400,7 @@
         "steps": [
           {
             "result": {
-              "duration": 24942400,
+              "duration": 21950100,
               "status": "passed"
             },
             "line": 78,
@@ -2412,7 +2412,7 @@
           },
           {
             "result": {
-              "duration": 2989097700,
+              "duration": 2927965000,
               "status": "passed"
             },
             "line": 79,
@@ -2424,7 +2424,7 @@
           },
           {
             "result": {
-              "duration": 85358400,
+              "duration": 60265100,
               "status": "passed"
             },
             "line": 80,
@@ -2436,7 +2436,7 @@
           },
           {
             "result": {
-              "duration": 6631823200,
+              "duration": 6462044300,
               "status": "passed"
             },
             "line": 81,
@@ -2458,7 +2458,7 @@
           },
           {
             "result": {
-              "duration": 1288900500,
+              "duration": 1267925600,
               "status": "passed"
             },
             "line": 82,
@@ -2470,7 +2470,7 @@
           },
           {
             "result": {
-              "duration": 68495000,
+              "duration": 55455300,
               "status": "passed"
             },
             "line": 83,
@@ -2484,14 +2484,14 @@
       },
       {
         "line": 3,
-        "name": "Verify the login page",
+        "name": "Automate the login page",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 12325400,
+              "duration": 12443300,
               "status": "passed"
             },
             "line": 4,
@@ -2503,7 +2503,7 @@
           },
           {
             "result": {
-              "duration": 4238687300,
+              "duration": 4219854900,
               "status": "passed"
             },
             "line": 5,
@@ -2515,7 +2515,7 @@
           },
           {
             "result": {
-              "duration": 2708583000,
+              "duration": 2437745100,
               "status": "passed"
             },
             "line": 6,
@@ -2527,7 +2527,7 @@
           },
           {
             "result": {
-              "duration": 47535500,
+              "duration": 43278700,
               "status": "passed"
             },
             "line": 7,
@@ -2539,7 +2539,7 @@
           },
           {
             "result": {
-              "duration": 6307405100,
+              "duration": 6231303100,
               "status": "passed"
             },
             "line": 8,
@@ -2551,7 +2551,7 @@
           },
           {
             "result": {
-              "duration": 782524300,
+              "duration": 1468840300,
               "status": "passed"
             },
             "line": 9,
@@ -2563,7 +2563,7 @@
           },
           {
             "result": {
-              "duration": 59735400,
+              "duration": 39612800,
               "status": "passed"
             },
             "line": 10,
@@ -2576,11 +2576,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-14T04:10:29.566Z",
+        "start_timestamp": "2021-10-14T06:54:41.603Z",
         "before": [
           {
             "result": {
-              "duration": 5863642700,
+              "duration": 5976445000,
               "status": "passed"
             },
             "match": {
@@ -2589,13 +2589,13 @@
           }
         ],
         "line": 91,
-        "name": "Verify the cancel button on the Add Manufacturers page",
+        "name": "Automate the cancel button on the Add Manufacturers page",
         "description": "",
-        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-cancel-button-on-the-add-manufacturers-page",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;automate-the-cancel-button-on-the-add-manufacturers-page",
         "after": [
           {
             "result": {
-              "duration": 420891000,
+              "duration": 350673400,
               "status": "passed"
             },
             "match": {
@@ -2608,7 +2608,7 @@
         "steps": [
           {
             "result": {
-              "duration": 23430400,
+              "duration": 21529900,
               "status": "passed"
             },
             "line": 92,
@@ -2620,7 +2620,7 @@
           },
           {
             "result": {
-              "duration": 987833300,
+              "duration": 931214300,
               "status": "passed"
             },
             "line": 93,
@@ -2632,7 +2632,7 @@
           },
           {
             "result": {
-              "duration": 47162200,
+              "duration": 37304100,
               "status": "passed"
             },
             "line": 94,
@@ -2644,7 +2644,7 @@
           },
           {
             "result": {
-              "duration": 694925300,
+              "duration": 614805100,
               "status": "passed"
             },
             "line": 95,
@@ -2656,7 +2656,7 @@
           },
           {
             "result": {
-              "duration": 82843800,
+              "duration": 38918100,
               "status": "passed"
             },
             "line": 96,
@@ -2670,14 +2670,14 @@
       },
       {
         "line": 3,
-        "name": "Verify the login page",
+        "name": "Automate the login page",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 14072800,
+              "duration": 6949700,
               "status": "passed"
             },
             "line": 4,
@@ -2689,7 +2689,7 @@
           },
           {
             "result": {
-              "duration": 4299173900,
+              "duration": 4233091200,
               "status": "passed"
             },
             "line": 5,
@@ -2701,7 +2701,7 @@
           },
           {
             "result": {
-              "duration": 2367346200,
+              "duration": 2356900600,
               "status": "passed"
             },
             "line": 6,
@@ -2713,7 +2713,7 @@
           },
           {
             "result": {
-              "duration": 44677900,
+              "duration": 38980100,
               "status": "passed"
             },
             "line": 7,
@@ -2725,7 +2725,7 @@
           },
           {
             "result": {
-              "duration": 6285175500,
+              "duration": 6211541600,
               "status": "passed"
             },
             "line": 8,
@@ -2737,7 +2737,7 @@
           },
           {
             "result": {
-              "duration": 796104500,
+              "duration": 1435391400,
               "status": "passed"
             },
             "line": 9,
@@ -2749,7 +2749,7 @@
           },
           {
             "result": {
-              "duration": 53891000,
+              "duration": 57008200,
               "status": "passed"
             },
             "line": 10,
@@ -2762,11 +2762,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-14T04:10:51.847Z",
+        "start_timestamp": "2021-10-14T06:55:04.029Z",
         "before": [
           {
             "result": {
-              "duration": 5769180000,
+              "duration": 5565967100,
               "status": "passed"
             },
             "match": {
@@ -2775,13 +2775,13 @@
           }
         ],
         "line": 99,
-        "name": "Verify the Pagination functionality on the Manufacturers page",
+        "name": "Automate the Pagination functionality on the Manufacturers page",
         "description": "",
-        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-pagination-functionality-on-the-manufacturers-page",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;automate-the-pagination-functionality-on-the-manufacturers-page",
         "after": [
           {
             "result": {
-              "duration": 830968100,
+              "duration": 366175100,
               "status": "passed"
             },
             "match": {
@@ -2794,7 +2794,7 @@
         "steps": [
           {
             "result": {
-              "duration": 24191200,
+              "duration": 25123700,
               "status": "passed"
             },
             "line": 100,
@@ -2806,7 +2806,7 @@
           },
           {
             "result": {
-              "duration": 5055009800,
+              "duration": 5047665800,
               "status": "passed"
             },
             "line": 101,
@@ -2818,7 +2818,7 @@
           },
           {
             "result": {
-              "duration": 6514671000,
+              "duration": 5674358900,
               "status": "passed"
             },
             "line": 102,
@@ -2830,7 +2830,7 @@
           },
           {
             "result": {
-              "duration": 104414500,
+              "duration": 62596000,
               "status": "passed"
             },
             "line": 103,
@@ -2842,7 +2842,7 @@
           },
           {
             "result": {
-              "duration": 11590248900,
+              "duration": 11323993600,
               "status": "passed"
             },
             "line": 104,
@@ -2854,7 +2854,7 @@
           },
           {
             "result": {
-              "duration": 111777800,
+              "duration": 40906600,
               "status": "passed"
             },
             "line": 105,
@@ -2868,14 +2868,14 @@
       },
       {
         "line": 3,
-        "name": "Verify the login page",
+        "name": "Automate the login page",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 14986100,
+              "duration": 9775400,
               "status": "passed"
             },
             "line": 4,
@@ -2887,7 +2887,7 @@
           },
           {
             "result": {
-              "duration": 4369562500,
+              "duration": 4228302800,
               "status": "passed"
             },
             "line": 5,
@@ -2899,7 +2899,7 @@
           },
           {
             "result": {
-              "duration": 2319363000,
+              "duration": 2435684800,
               "status": "passed"
             },
             "line": 6,
@@ -2911,7 +2911,7 @@
           },
           {
             "result": {
-              "duration": 47454800,
+              "duration": 42780200,
               "status": "passed"
             },
             "line": 7,
@@ -2923,7 +2923,7 @@
           },
           {
             "result": {
-              "duration": 6267689300,
+              "duration": 6220431700,
               "status": "passed"
             },
             "line": 8,
@@ -2935,7 +2935,7 @@
           },
           {
             "result": {
-              "duration": 823009000,
+              "duration": 1419083200,
               "status": "passed"
             },
             "line": 9,
@@ -2947,7 +2947,7 @@
           },
           {
             "result": {
-              "duration": 49361000,
+              "duration": 47173700,
               "status": "passed"
             },
             "line": 10,
@@ -2960,11 +2960,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-14T04:11:35.710Z",
+        "start_timestamp": "2021-10-14T06:55:46.477Z",
         "before": [
           {
             "result": {
-              "duration": 5507395700,
+              "duration": 5938944800,
               "status": "passed"
             },
             "match": {
@@ -2973,13 +2973,13 @@
           }
         ],
         "line": 108,
-        "name": "Verify the Bulk action and Delete button on the Manufacturers page",
+        "name": "Automate the Bulk action and Delete button on the Manufacturers page",
         "description": "",
-        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-bulk-action-and-delete-button-on-the-manufacturers-page",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;automate-the-bulk-action-and-delete-button-on-the-manufacturers-page",
         "after": [
           {
             "result": {
-              "duration": 370693000,
+              "duration": 349850000,
               "status": "passed"
             },
             "match": {
@@ -2992,7 +2992,7 @@
         "steps": [
           {
             "result": {
-              "duration": 25189500,
+              "duration": 21734900,
               "status": "passed"
             },
             "line": 109,
@@ -3004,7 +3004,7 @@
           },
           {
             "result": {
-              "duration": 6138124100,
+              "duration": 6136183500,
               "status": "passed"
             },
             "line": 110,
@@ -3016,7 +3016,7 @@
           },
           {
             "result": {
-              "duration": 3124994200,
+              "duration": 3132426200,
               "status": "passed"
             },
             "line": 111,
@@ -3028,7 +3028,7 @@
           },
           {
             "result": {
-              "duration": 6322750700,
+              "duration": 6228071700,
               "status": "passed"
             },
             "line": 112,
@@ -3040,7 +3040,7 @@
           },
           {
             "result": {
-              "duration": 6130413900,
+              "duration": 6113024900,
               "status": "passed"
             },
             "line": 113,
@@ -3052,7 +3052,7 @@
           },
           {
             "result": {
-              "duration": 3197888500,
+              "duration": 3119535900,
               "status": "passed"
             },
             "line": 114,
@@ -3064,7 +3064,7 @@
           },
           {
             "result": {
-              "duration": 2017067300,
+              "duration": 2015575100,
               "status": "passed"
             },
             "line": 115,
@@ -3076,7 +3076,7 @@
           },
           {
             "result": {
-              "duration": 1741325500,
+              "duration": 1777751200,
               "status": "passed"
             },
             "line": 116,

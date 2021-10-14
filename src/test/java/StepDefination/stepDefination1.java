@@ -39,9 +39,9 @@ public class stepDefination1 {
 	@When("Admin enters the username and password")
 	public void admin_enters_the_username_and_password() {
 		try {
-			driver.findElement(By.xpath("//*[@id=\"input-username\"]")).sendKeys("admin");
+			driver.findElement(By.xpath("//*[@id='input-username']")).sendKeys("admin");
 			Thread.sleep(2000);
-			driver.findElement(By.xpath("//*[@id=\"input-password\"]")).sendKeys("admin@123");
+			driver.findElement(By.xpath("//*[@id='input-password']")).sendKeys("admin@123");
 			Thread.sleep(2000);
 			System.out.println("Entered Username and Password");
 		}

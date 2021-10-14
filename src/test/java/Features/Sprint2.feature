@@ -1,6 +1,6 @@
 Feature: Automation Testing for Uniformstore Manufacturers Page
 
-  Background: Verify the login page
+  Background: Automate the login page
     Given Admin is on login page of uniformstore application
     When Admin enters the username and password
     And Clicks on login button
@@ -10,7 +10,7 @@ Feature: Automation Testing for Uniformstore Manufacturers Page
     Then Admin navigates to the Manufacturers page
 
 
-  Scenario Outline: Verify the Add New button on the Manufacturers Page
+  Scenario Outline: Automate the Add New button on the Manufacturers Page
     Given Admin is on the Manufacturers page
     When Admin clicks on the Add New button
     Then Admin navigates to the Add Manufacturers page
@@ -31,7 +31,7 @@ Feature: Automation Testing for Uniformstore Manufacturers Page
       
       
  
-  Scenario Outline: Verify the Image Manager page
+  Scenario Outline: Automate the Image Manager page
     Given Admin is on the Manufacturers page
     When Admin clicks on the Add New button
     Then Admin navigates to the Add Manufacturers page
@@ -62,7 +62,7 @@ Feature: Automation Testing for Uniformstore Manufacturers Page
       | Blazer |
 
   
-  Scenario: Verify the Sorting functionality on the Manufacturers page
+  Scenario: Automate the Sorting functionality on the Manufacturers page
     Given Admin is on the Manufacturers page
     When Admin clicks on the Manufacturers name heading
     Then Names should be arranges in descending order
@@ -74,7 +74,7 @@ Feature: Automation Testing for Uniformstore Manufacturers Page
     Then Order should be arranges in ascending order
 
   
-  Scenario Outline: Verify the Edit button and Save button on the Manufacturers page
+  Scenario Outline: Automate the Edit button and Save button on the Manufacturers page
     Given Admin is on the Manufacturers page
     When Admin clicks on the Edit icon
     Then Admin navigates to the Edit Manufacturers page
@@ -88,7 +88,7 @@ Feature: Automation Testing for Uniformstore Manufacturers Page
       |         |           |
 
   
-  Scenario: Verify the cancel button on the Add Manufacturers page
+  Scenario: Automate the cancel button on the Add Manufacturers page
     Given Admin is on the Manufacturers page
     When Admin clicks on the Add New button
     Then Admin navigates to the Add Manufacturers page
@@ -96,7 +96,7 @@ Feature: Automation Testing for Uniformstore Manufacturers Page
     Then Admin navigates back to the Manufacturers page
 
   
-  Scenario: Verify the Pagination functionality on the Manufacturers page
+  Scenario: Automate the Pagination functionality on the Manufacturers page
     Given Admin is on the Manufacturers page
     And Checks for the pagination
     When Admin clicks on the forward arrow
@@ -105,7 +105,7 @@ Feature: Automation Testing for Uniformstore Manufacturers Page
     Then Admin navigates to the previous page
 
   
-  Scenario: Verify the Bulk action and Delete button on the Manufacturers page
+  Scenario: Automate the Bulk action and Delete button on the Manufacturers page
     Given Admin is on the Manufacturers page
     When Admin clicks on the checkbox in the title bar and all checkboxes should be selected
     And Again clicks on the checkbox in the title bar and all checkboxes should be deselected
