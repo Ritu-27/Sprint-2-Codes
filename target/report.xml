@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="13" time="445.728374">
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Verify the Add New button on the Manufacturers Page" time="25.66141">
+        <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
+When Admin enters the username and password.................................passed
+And Clicks on login button..................................................passed
+Then Admin navigates to the dashboard page of the uniformstore..............passed
+When Admin clicks on the Catalog option.....................................passed
+And Admin clicks on the Manufacturers option................................passed
+Then Admin navigates to the Manufacturers page..............................passed
+Given Admin is on the Manufacturers page....................................passed
+When Admin clicks on the Add New button.....................................passed
+Then Admin navigates to the Add Manufacturers page..........................passed
+When Admin enters the "abc" in the Manufacturers name field.................passed
+And checks that Stores field is default checked or not......................passed
+And enters the "90" in the sort order field.................................passed
+And clicks on the Save button...............................................passed
+Then Admin will able to see the validationmessage...........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Verify the Add New button on the Manufacturers Page 2" time="25.264498">
+        <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
+When Admin enters the username and password.................................passed
+And Clicks on login button..................................................passed
+Then Admin navigates to the dashboard page of the uniformstore..............passed
+When Admin clicks on the Catalog option.....................................passed
+And Admin clicks on the Manufacturers option................................passed
+Then Admin navigates to the Manufacturers page..............................passed
+Given Admin is on the Manufacturers page....................................passed
+When Admin clicks on the Add New button.....................................passed
+Then Admin navigates to the Add Manufacturers page..........................passed
+When Admin enters the "xyz1" in the Manufacturers name field................passed
+And checks that Stores field is default checked or not......................passed
+And enters the "6abc" in the sort order field...............................passed
+And clicks on the Save button...............................................passed
+Then Admin will able to see the validationmessage...........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Verify the Add New button on the Manufacturers Page 3" time="24.65808">
+        <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
+When Admin enters the username and password.................................passed
+And Clicks on login button..................................................passed
+Then Admin navigates to the dashboard page of the uniformstore..............passed
+When Admin clicks on the Catalog option.....................................passed
+And Admin clicks on the Manufacturers option................................passed
+Then Admin navigates to the Manufacturers page..............................passed
+Given Admin is on the Manufacturers page....................................passed
+When Admin clicks on the Add New button.....................................passed
+Then Admin navigates to the Add Manufacturers page..........................passed
+When Admin enters the "ritu@32" in the Manufacturers name field.............passed
+And checks that Stores field is default checked or not......................passed
+And enters the "abc32" in the sort order field..............................passed
+And clicks on the Save button...............................................passed
+Then Admin will able to see the validationmessage...........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Verify the Add New button on the Manufacturers Page 4" time="25.739861">
+        <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
+When Admin enters the username and password.................................passed
+And Clicks on login button..................................................passed
+Then Admin navigates to the dashboard page of the uniformstore..............passed
+When Admin clicks on the Catalog option.....................................passed
+And Admin clicks on the Manufacturers option................................passed
+Then Admin navigates to the Manufacturers page..............................passed
+Given Admin is on the Manufacturers page....................................passed
+When Admin clicks on the Add New button.....................................passed
+Then Admin navigates to the Add Manufacturers page..........................passed
+When Admin enters the "abc abcd" in the Manufacturers name field............passed
+And checks that Stores field is default checked or not......................passed
+And enters the "42" in the sort order field.................................passed
+And clicks on the Save button...............................................passed
+Then Admin will able to see the validationmessage...........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Verify the Add New button on the Manufacturers Page 5" time="25.093039">
+        <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
+When Admin enters the username and password.................................passed
+And Clicks on login button..................................................passed
+Then Admin navigates to the dashboard page of the uniformstore..............passed
+When Admin clicks on the Catalog option.....................................passed
+And Admin clicks on the Manufacturers option................................passed
+Then Admin navigates to the Manufacturers page..............................passed
+Given Admin is on the Manufacturers page....................................passed
+When Admin clicks on the Add New button.....................................passed
+Then Admin navigates to the Add Manufacturers page..........................passed
+When Admin enters the "" in the Manufacturers name field....................passed
+And checks that Stores field is default checked or not......................passed
+And enters the "" in the sort order field...................................passed
+And clicks on the Save button...............................................passed
+Then Admin will able to see the validationmessage...........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Verify the Add New button on the Manufacturers Page 6" time="24.748117">
+        <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
+When Admin enters the username and password.................................passed
+And Clicks on login button..................................................passed
+Then Admin navigates to the dashboard page of the uniformstore..............passed
+When Admin clicks on the Catalog option.....................................passed
+And Admin clicks on the Manufacturers option................................passed
+Then Admin navigates to the Manufacturers page..............................passed
+Given Admin is on the Manufacturers page....................................passed
+When Admin clicks on the Add New button.....................................passed
+Then Admin navigates to the Add Manufacturers page..........................passed
+When Admin enters the "r" in the Manufacturers name field...................passed
+And checks that Stores field is default checked or not......................passed
+And enters the "32" in the sort order field.................................passed
+And clicks on the Save button...............................................passed
+Then Admin will able to see the validationmessage...........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Verify the Image Manager page" time="74.565491">
+        <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
+When Admin enters the username and password.................................passed
+And Clicks on login button..................................................passed
+Then Admin navigates to the dashboard page of the uniformstore..............passed
+When Admin clicks on the Catalog option.....................................passed
+And Admin clicks on the Manufacturers option................................passed
+Then Admin navigates to the Manufacturers page..............................passed
+Given Admin is on the Manufacturers page....................................passed
+When Admin clicks on the Add New button.....................................passed
+Then Admin navigates to the Add Manufacturers page..........................passed
+When Admin clicks on the Image field........................................passed
+And clicks on the Edit icon.................................................passed
+Then Admin navigates to the Image Manager page..............................passed
+And clicks on the Refresh button............................................passed
+When Admin clicks on the New Folder icon....................................passed
+And Enters the foldername "Blazer"..........................................passed
+And Clicks on the Add icon..................................................passed
+Then Admin accepts the alert................................................passed
+When Admin enters the foldername or imagename "Blazer" in the search field..passed
+And clicks on the search icon...............................................passed
+Then Admin able to see the searched folder or image on the page.............passed
+And clicks on the Parent button to return to the parent page................passed
+When Admin selects the foldername or imagename..............................passed
+And clicks on Delete button.................................................passed
+And accepts the alert.......................................................passed
+Then Admin Again accepts the success alert..................................passed
+When Admin checks for the pagination........................................passed
+And Clicks on the forward arrow of pagination...............................passed
+Then Admin navigates to the next page of the Image Manager..................passed
+And Clicks on the backward arrow of pagination..............................passed
+Then Admin navigates to the previous page of the Image Manager..............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Verify the Sorting functionality on the Manufacturers page" time="43.503061">
+        <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
+When Admin enters the username and password.................................passed
+And Clicks on login button..................................................passed
+Then Admin navigates to the dashboard page of the uniformstore..............passed
+When Admin clicks on the Catalog option.....................................passed
+And Admin clicks on the Manufacturers option................................passed
+Then Admin navigates to the Manufacturers page..............................passed
+Given Admin is on the Manufacturers page....................................passed
+When Admin clicks on the Manufacturers name heading.........................passed
+Then Names should be arranges in descending order...........................passed
+And Again clicks on the Manufacturers name heading..........................passed
+Then Names should be arranges in ascending order............................passed
+When Admin clicks Sort Order heading........................................passed
+Then Order should be arranges in descending order...........................passed
+And Again clicks on the Sort Order heading..................................passed
+Then Order should be arranges in ascending order............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Verify the Edit button and Save button on the Manufacturers page" time="31.438105">
+        <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
+When Admin enters the username and password.................................passed
+And Clicks on login button..................................................passed
+Then Admin navigates to the dashboard page of the uniformstore..............passed
+When Admin clicks on the Catalog option.....................................passed
+And Admin clicks on the Manufacturers option................................passed
+Then Admin navigates to the Manufacturers page..............................passed
+Given Admin is on the Manufacturers page....................................passed
+When Admin clicks on the Edit icon..........................................passed
+Then Admin navigates to the Edit Manufacturers page.........................passed
+When Admin modifies the "ritu@32","3".......................................passed
+And clicks on the Save button...............................................passed
+Then Admin will able to see the validationmessage...........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Verify the Edit button and Save button on the Manufacturers page 2" time="30.448504">
+        <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
+When Admin enters the username and password.................................passed
+And Clicks on login button..................................................passed
+Then Admin navigates to the dashboard page of the uniformstore..............passed
+When Admin clicks on the Catalog option.....................................passed
+And Admin clicks on the Manufacturers option................................passed
+Then Admin navigates to the Manufacturers page..............................passed
+Given Admin is on the Manufacturers page....................................passed
+When Admin clicks on the Edit icon..........................................passed
+Then Admin navigates to the Edit Manufacturers page.........................passed
+When Admin modifies the "",""...............................................passed
+And clicks on the Save button...............................................passed
+Then Admin will able to see the validationmessage...........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Verify the cancel button on the Add Manufacturers page" time="22.278212">
+        <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
+When Admin enters the username and password.................................passed
+And Clicks on login button..................................................passed
+Then Admin navigates to the dashboard page of the uniformstore..............passed
+When Admin clicks on the Catalog option.....................................passed
+And Admin clicks on the Manufacturers option................................passed
+Then Admin navigates to the Manufacturers page..............................passed
+Given Admin is on the Manufacturers page....................................passed
+When Admin clicks on the Add New button.....................................passed
+Then Admin navigates to the Add Manufacturers page..........................passed
+When Clicks on the cancel button............................................passed
+Then Admin navigates back to the Manufacturers page.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Verify the Pagination functionality on the Manufacturers page" time="43.861834">
+        <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
+When Admin enters the username and password.................................passed
+And Clicks on login button..................................................passed
+Then Admin navigates to the dashboard page of the uniformstore..............passed
+When Admin clicks on the Catalog option.....................................passed
+And Admin clicks on the Manufacturers option................................passed
+Then Admin navigates to the Manufacturers page..............................passed
+Given Admin is on the Manufacturers page....................................passed
+And Checks for the pagination...............................................passed
+When Admin clicks on the forward arrow......................................passed
+Then Admin navigates to the next page.......................................passed
+And Clicks on the backward arrow............................................passed
+Then Admin navigates to the previous page...................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Verify the Bulk action and Delete button on the Manufacturers page" time="48.468162">
+        <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
+When Admin enters the username and password.................................passed
+And Clicks on login button..................................................passed
+Then Admin navigates to the dashboard page of the uniformstore..............passed
+When Admin clicks on the Catalog option.....................................passed
+And Admin clicks on the Manufacturers option................................passed
+Then Admin navigates to the Manufacturers page..............................passed
+Given Admin is on the Manufacturers page....................................passed
+When Admin clicks on the checkbox in the title bar and all checkboxes should be selected.passed
+And Again clicks on the checkbox in the title bar and all checkboxes should be deselected.passed
+When Admin clicks on one or more checkboxes in the Manufacturers list.......passed
+Then Checkboxes should be selected..........................................passed
+And Clicks on the delete button.............................................passed
+And Accepts the alert.......................................................passed
+Then Admin will able to see the validation message of Modification..........passed
+]]></system-out>
+    </testcase>
+</testsuite>

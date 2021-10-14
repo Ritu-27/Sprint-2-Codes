@@ -1,0 +1,3099 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14345400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on login page of uniformstore application",
+            "match": {
+              "location": "stepDefination1.admin_is_on_login_page_of_uniformstore_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4303472200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "stepDefination1.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2360762800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks on login button",
+            "match": {
+              "location": "stepDefination1.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48744800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin navigates to the dashboard page of the uniformstore",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_dashboard_page_of_the_uniformstore()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6184430900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on the Catalog option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Catalog_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 769604900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin clicks on the Manufacturers option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Manufacturers_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54854000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Admin navigates to the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_Manufacturers_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:04:58.423Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6771370800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.initialization()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Verify the Add New button on the Manufacturers Page",
+        "description": "",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-add-new-button-on-the-manufacturers-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 413486000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31768400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Admin is on the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_is_on_the_Manufacturers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 976826400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Admin clicks on the Add New button",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Add_New_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45583400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Admin navigates to the Add Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_Add_Manufacturers_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1128034800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Admin enters the \"abc\" in the Manufacturers name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefination1.admin_enters_the_in_the_Manufacturers_name_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75787400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "checks that Stores field is default checked or not",
+            "match": {
+              "location": "stepDefination1.checks_that_Stores_field_is_default_checked_or_not()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1117166200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "enters the \"90\" in the sort order field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"90\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefination1.enters_the_in_the_sort_order_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1252415300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "clicks on the Save button",
+            "match": {
+              "location": "stepDefination1.clicks_on_the_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99841500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Admin will able to see the validationmessage",
+            "match": {
+              "location": "stepDefination1.admin_will_able_to_see_the_validationmessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12993700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on login page of uniformstore application",
+            "match": {
+              "location": "stepDefination1.admin_is_on_login_page_of_uniformstore_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4359477300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "stepDefination1.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2442470800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks on login button",
+            "match": {
+              "location": "stepDefination1.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39652400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin navigates to the dashboard page of the uniformstore",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_dashboard_page_of_the_uniformstore()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6217313200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on the Catalog option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Catalog_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 876151500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin clicks on the Manufacturers option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Manufacturers_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55405600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Admin navigates to the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_Manufacturers_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:05:24.088Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6118577400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.initialization()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Verify the Add New button on the Manufacturers Page",
+        "description": "",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-add-new-button-on-the-manufacturers-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 451049600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34301800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Admin is on the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_is_on_the_Manufacturers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1063717900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Admin clicks on the Add New button",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Add_New_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36905300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Admin navigates to the Add Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_Add_Manufacturers_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1117721000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Admin enters the \"xyz1\" in the Manufacturers name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xyz1\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefination1.admin_enters_the_in_the_Manufacturers_name_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80725600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "checks that Stores field is default checked or not",
+            "match": {
+              "location": "stepDefination1.checks_that_Stores_field_is_default_checked_or_not()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1204731400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "enters the \"6abc\" in the sort order field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"6abc\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefination1.enters_the_in_the_sort_order_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1091722300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "clicks on the Save button",
+            "match": {
+              "location": "stepDefination1.clicks_on_the_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60419200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Admin will able to see the validationmessage",
+            "match": {
+              "location": "stepDefination1.admin_will_able_to_see_the_validationmessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18311300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on login page of uniformstore application",
+            "match": {
+              "location": "stepDefination1.admin_is_on_login_page_of_uniformstore_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4498085600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "stepDefination1.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2468661500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks on login button",
+            "match": {
+              "location": "stepDefination1.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47487700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin navigates to the dashboard page of the uniformstore",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_dashboard_page_of_the_uniformstore()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6214007800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on the Catalog option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Catalog_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 767585100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin clicks on the Manufacturers option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Manufacturers_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54883200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Admin navigates to the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_Manufacturers_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:05:49.356Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5404976300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.initialization()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Verify the Add New button on the Manufacturers Page",
+        "description": "",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-add-new-button-on-the-manufacturers-page;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 351166400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 49168700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Admin is on the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_is_on_the_Manufacturers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1081406200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Admin clicks on the Add New button",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Add_New_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52065600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Admin navigates to the Add Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_Add_Manufacturers_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1143366400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Admin enters the \"ritu@32\" in the Manufacturers name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ritu@32\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefination1.admin_enters_the_in_the_Manufacturers_name_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50431400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "checks that Stores field is default checked or not",
+            "match": {
+              "location": "stepDefination1.checks_that_Stores_field_is_default_checked_or_not()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1152797600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "enters the \"abc32\" in the sort order field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc32\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefination1.enters_the_in_the_sort_order_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1232835100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "clicks on the Save button",
+            "match": {
+              "location": "stepDefination1.clicks_on_the_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69729800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Admin will able to see the validationmessage",
+            "match": {
+              "location": "stepDefination1.admin_will_able_to_see_the_validationmessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13859200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on login page of uniformstore application",
+            "match": {
+              "location": "stepDefination1.admin_is_on_login_page_of_uniformstore_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4491219700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "stepDefination1.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3001513700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks on login button",
+            "match": {
+              "location": "stepDefination1.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52541600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin navigates to the dashboard page of the uniformstore",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_dashboard_page_of_the_uniformstore()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6189362700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on the Catalog option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Catalog_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 766036000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin clicks on the Manufacturers option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Manufacturers_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69190500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Admin navigates to the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_Manufacturers_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:06:14.016Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6301483800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.initialization()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Verify the Add New button on the Manufacturers Page",
+        "description": "",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-add-new-button-on-the-manufacturers-page;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 361209800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24476500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Admin is on the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_is_on_the_Manufacturers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 942358700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Admin clicks on the Add New button",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Add_New_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64248400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Admin navigates to the Add Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_Add_Manufacturers_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1110580000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Admin enters the \"abc abcd\" in the Manufacturers name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc abcd\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefination1.admin_enters_the_in_the_Manufacturers_name_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47202100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "checks that Stores field is default checked or not",
+            "match": {
+              "location": "stepDefination1.checks_that_Stores_field_is_default_checked_or_not()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1102516400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "enters the \"42\" in the sort order field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"42\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefination1.enters_the_in_the_sort_order_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1150851300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "clicks on the Save button",
+            "match": {
+              "location": "stepDefination1.clicks_on_the_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49866900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Admin will able to see the validationmessage",
+            "match": {
+              "location": "stepDefination1.admin_will_able_to_see_the_validationmessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16058600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on login page of uniformstore application",
+            "match": {
+              "location": "stepDefination1.admin_is_on_login_page_of_uniformstore_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4392776900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "stepDefination1.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2511300500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks on login button",
+            "match": {
+              "location": "stepDefination1.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47030400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin navigates to the dashboard page of the uniformstore",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_dashboard_page_of_the_uniformstore()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6206776500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on the Catalog option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Catalog_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1583526900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin clicks on the Manufacturers option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Manufacturers_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67580900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Admin navigates to the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_Manufacturers_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:06:39.758Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5603686900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.initialization()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Verify the Add New button on the Manufacturers Page",
+        "description": "",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-add-new-button-on-the-manufacturers-page;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 316721000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24391500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Admin is on the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_is_on_the_Manufacturers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 975297800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Admin clicks on the Add New button",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Add_New_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54886500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Admin navigates to the Add Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_Add_Manufacturers_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1083384000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Admin enters the \"\" in the Manufacturers name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefination1.admin_enters_the_in_the_Manufacturers_name_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103957300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "checks that Stores field is default checked or not",
+            "match": {
+              "location": "stepDefination1.checks_that_Stores_field_is_default_checked_or_not()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1168386100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "enters the \"\" in the sort order field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefination1.enters_the_in_the_sort_order_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 846748100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "clicks on the Save button",
+            "match": {
+              "location": "stepDefination1.clicks_on_the_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89408100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Admin will able to see the validationmessage",
+            "match": {
+              "location": "stepDefination1.admin_will_able_to_see_the_validationmessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17187500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on login page of uniformstore application",
+            "match": {
+              "location": "stepDefination1.admin_is_on_login_page_of_uniformstore_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4322041800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "stepDefination1.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2288240800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks on login button",
+            "match": {
+              "location": "stepDefination1.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52627300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin navigates to the dashboard page of the uniformstore",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_dashboard_page_of_the_uniformstore()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6237093000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on the Catalog option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Catalog_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 987265400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin clicks on the Manufacturers option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Manufacturers_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51116300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Admin navigates to the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_Manufacturers_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:07:04.853Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5797474400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.initialization()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Verify the Add New button on the Manufacturers Page",
+        "description": "",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-add-new-button-on-the-manufacturers-page;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 351257900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23850700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Admin is on the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_is_on_the_Manufacturers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1065269100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Admin clicks on the Add New button",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Add_New_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85361100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Admin navigates to the Add Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_Add_Manufacturers_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1226682300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Admin enters the \"r\" in the Manufacturers name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"r\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefination1.admin_enters_the_in_the_Manufacturers_name_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105496600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "checks that Stores field is default checked or not",
+            "match": {
+              "location": "stepDefination1.checks_that_Stores_field_is_default_checked_or_not()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1117021100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "enters the \"32\" in the sort order field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"32\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefination1.enters_the_in_the_sort_order_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 959000900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "clicks on the Save button",
+            "match": {
+              "location": "stepDefination1.clicks_on_the_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59831500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Admin will able to see the validationmessage",
+            "match": {
+              "location": "stepDefination1.admin_will_able_to_see_the_validationmessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18213800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on login page of uniformstore application",
+            "match": {
+              "location": "stepDefination1.admin_is_on_login_page_of_uniformstore_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4304594600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "stepDefination1.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2336397500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks on login button",
+            "match": {
+              "location": "stepDefination1.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43218600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin navigates to the dashboard page of the uniformstore",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_dashboard_page_of_the_uniformstore()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6246276100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on the Catalog option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Catalog_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 828390900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin clicks on the Manufacturers option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Manufacturers_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62437700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Admin navigates to the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_Manufacturers_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:07:29.605Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5722294400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.initialization()"
+            }
+          }
+        ],
+        "line": 62,
+        "name": "Verify the Image Manager page",
+        "description": "",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-image-manager-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 431733300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25753100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Admin is on the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_is_on_the_Manufacturers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996581000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Admin clicks on the Add New button",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Add_New_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50077200,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Admin navigates to the Add Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_Add_Manufacturers_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4212927600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Admin clicks on the Image field",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Image_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2191190500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "clicks on the Edit icon",
+            "match": {
+              "location": "stepDefination1.clicks_on_the_Edit_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70278700,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Admin navigates to the Image Manager page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_Image_Manager_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2099209300,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "clicks on the Refresh button",
+            "match": {
+              "location": "stepDefination1.clicks_on_the_Refresh_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2194243800,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Admin clicks on the New Folder icon",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_New_Folder_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1207877800,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Enters the foldername \"Blazer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blazer\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefination1.enters_the_foldername(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2193713000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Clicks on the Add icon",
+            "match": {
+              "location": "stepDefination1.clicks_on_the_Add_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5031323300,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Admin accepts the alert",
+            "match": {
+              "location": "stepDefination1.admin_accepts_the_alert()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3164769400,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Admin enters the foldername or imagename \"Blazer\" in the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blazer\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefination1.admin_enters_the_foldername_or_imagename_in_the_search_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4218804300,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "clicks on the search icon",
+            "match": {
+              "location": "stepDefination1.clicks_on_the_search_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110707500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Admin able to see the searched folder or image on the page",
+            "match": {
+              "location": "stepDefination1.admin_able_to_see_the_searched_folder_or_image_on_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1116044900,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "clicks on the Parent button to return to the parent page",
+            "match": {
+              "location": "stepDefination1.clicks_on_the_Parent_button_to_return_to_the_parent_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1099909500,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Admin selects the foldername or imagename",
+            "match": {
+              "location": "stepDefination1.admin_selects_the_foldername_or_imagename()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1107552400,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "clicks on Delete button",
+            "match": {
+              "location": "stepDefination1.clicks_on_Delete_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2031846000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "accepts the alert",
+            "match": {
+              "location": "stepDefination1.accepts_the_alert1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6020267400,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Admin Again accepts the success alert",
+            "match": {
+              "location": "stepDefination1.admin_Again_accepts_the_success_alert()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5040077700,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Admin checks for the pagination",
+            "match": {
+              "location": "stepDefination1.admin_checks_for_the_pagination()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5140523300,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Clicks on the forward arrow of pagination",
+            "match": {
+              "location": "stepDefination1.clicks_on_the_forward_arrow_of_pagination()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55860700,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Admin navigates to the next page of the Image Manager",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_next_page_of_the_Image_Manager()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5074235200,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Clicks on the backward arrow of pagination",
+            "match": {
+              "location": "stepDefination1.clicks_on_the_backward_arrow_of_pagination()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112478200,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "Admin navigates to the previous page of the Image Manager",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_previous_page_of_the_Image_Manager()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15905800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on login page of uniformstore application",
+            "match": {
+              "location": "stepDefination1.admin_is_on_login_page_of_uniformstore_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4449603800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "stepDefination1.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2170603200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks on login button",
+            "match": {
+              "location": "stepDefination1.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52156600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin navigates to the dashboard page of the uniformstore",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_dashboard_page_of_the_uniformstore()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6187638100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on the Catalog option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Catalog_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 892300700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin clicks on the Manufacturers option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Manufacturers_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62999100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Admin navigates to the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_Manufacturers_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:08:44.171Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5582307700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.initialization()"
+            }
+          }
+        ],
+        "line": 65,
+        "name": "Verify the Sorting functionality on the Manufacturers page",
+        "description": "",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-sorting-functionality-on-the-manufacturers-page",
+        "after": [
+          {
+            "result": {
+              "duration": 427496600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27682800,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "Admin is on the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_is_on_the_Manufacturers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5894473300,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Admin clicks on the Manufacturers name heading",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Manufacturers_name_heading()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99712500,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "Names should be arranges in descending order",
+            "match": {
+              "location": "stepDefination1.names_should_be_arranges_in_descending_order1()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5690763200,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "Again clicks on the Manufacturers name heading",
+            "match": {
+              "location": "stepDefination1.again_clicks_on_the_Manufacturers_name_heading()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38317000,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "Names should be arranges in ascending order",
+            "match": {
+              "location": "stepDefination1.names_should_be_arranges_in_ascending_order()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5858561300,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "Admin clicks Sort Order heading",
+            "match": {
+              "location": "stepDefination1.admin_clicks_Sort_Order_heading()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69344400,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "Order should be arranges in descending order",
+            "match": {
+              "location": "stepDefination1.order_should_be_arranges_in_descending_order1()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5847128700,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "Again clicks on the Sort Order heading",
+            "match": {
+              "location": "stepDefination1.again_clicks_on_the_Sort_Order_heading()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135305700,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "Order should be arranges in ascending order",
+            "match": {
+              "location": "stepDefination1.order_should_be_arranges_in_ascending_order()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14834300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on login page of uniformstore application",
+            "match": {
+              "location": "stepDefination1.admin_is_on_login_page_of_uniformstore_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4374290200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "stepDefination1.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2065022100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks on login button",
+            "match": {
+              "location": "stepDefination1.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57780500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin navigates to the dashboard page of the uniformstore",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_dashboard_page_of_the_uniformstore()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6223062700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on the Catalog option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Catalog_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 702159700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin clicks on the Manufacturers option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Manufacturers_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48102000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Admin navigates to the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_Manufacturers_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:09:27.676Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6088063300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.initialization()"
+            }
+          }
+        ],
+        "line": 87,
+        "name": "Verify the Edit button and Save button on the Manufacturers page",
+        "description": "",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-edit-button-and-save-button-on-the-manufacturers-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 376817400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23392900,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "Admin is on the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_is_on_the_Manufacturers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3014372600,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "Admin clicks on the Edit icon",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Edit_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84576800,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "Admin navigates to the Edit Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_Edit_Manufacturers_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6547055500,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Admin modifies the \"ritu@32\",\"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ritu@32\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefination1.admin_modifies_the(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1740756500,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "clicks on the Save button",
+            "match": {
+              "location": "stepDefination1.clicks_on_the_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77140800,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "Admin will able to see the validationmessage",
+            "match": {
+              "location": "stepDefination1.admin_will_able_to_see_the_validationmessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16006000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on login page of uniformstore application",
+            "match": {
+              "location": "stepDefination1.admin_is_on_login_page_of_uniformstore_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4403585100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "stepDefination1.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2194603800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks on login button",
+            "match": {
+              "location": "stepDefination1.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43058300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin navigates to the dashboard page of the uniformstore",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_dashboard_page_of_the_uniformstore()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6172533900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on the Catalog option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Catalog_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 757427800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin clicks on the Manufacturers option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Manufacturers_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60171000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Admin navigates to the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_Manufacturers_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:09:59.116Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5433564600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.initialization()"
+            }
+          }
+        ],
+        "line": 88,
+        "name": "Verify the Edit button and Save button on the Manufacturers page",
+        "description": "",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-edit-button-and-save-button-on-the-manufacturers-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 278034200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24942400,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "Admin is on the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_is_on_the_Manufacturers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2989097700,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "Admin clicks on the Edit icon",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Edit_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85358400,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "Admin navigates to the Edit Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_Edit_Manufacturers_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6631823200,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Admin modifies the \"\",\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefination1.admin_modifies_the(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1288900500,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "clicks on the Save button",
+            "match": {
+              "location": "stepDefination1.clicks_on_the_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68495000,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "Admin will able to see the validationmessage",
+            "match": {
+              "location": "stepDefination1.admin_will_able_to_see_the_validationmessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12325400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on login page of uniformstore application",
+            "match": {
+              "location": "stepDefination1.admin_is_on_login_page_of_uniformstore_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4238687300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "stepDefination1.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2708583000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks on login button",
+            "match": {
+              "location": "stepDefination1.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47535500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin navigates to the dashboard page of the uniformstore",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_dashboard_page_of_the_uniformstore()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6307405100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on the Catalog option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Catalog_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 782524300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin clicks on the Manufacturers option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Manufacturers_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59735400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Admin navigates to the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_Manufacturers_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:10:29.566Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5863642700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.initialization()"
+            }
+          }
+        ],
+        "line": 91,
+        "name": "Verify the cancel button on the Add Manufacturers page",
+        "description": "",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-cancel-button-on-the-add-manufacturers-page",
+        "after": [
+          {
+            "result": {
+              "duration": 420891000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23430400,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "Admin is on the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_is_on_the_Manufacturers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 987833300,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "Admin clicks on the Add New button",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Add_New_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47162200,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "Admin navigates to the Add Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_Add_Manufacturers_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 694925300,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "Clicks on the cancel button",
+            "match": {
+              "location": "stepDefination1.clicks_on_the_cancel_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82843800,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "Admin navigates back to the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_back_to_the_Manufacturers_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14072800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on login page of uniformstore application",
+            "match": {
+              "location": "stepDefination1.admin_is_on_login_page_of_uniformstore_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4299173900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "stepDefination1.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2367346200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks on login button",
+            "match": {
+              "location": "stepDefination1.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44677900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin navigates to the dashboard page of the uniformstore",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_dashboard_page_of_the_uniformstore()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6285175500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on the Catalog option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Catalog_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 796104500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin clicks on the Manufacturers option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Manufacturers_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53891000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Admin navigates to the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_Manufacturers_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:10:51.847Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5769180000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.initialization()"
+            }
+          }
+        ],
+        "line": 99,
+        "name": "Verify the Pagination functionality on the Manufacturers page",
+        "description": "",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-pagination-functionality-on-the-manufacturers-page",
+        "after": [
+          {
+            "result": {
+              "duration": 830968100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24191200,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "Admin is on the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_is_on_the_Manufacturers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5055009800,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "Checks for the pagination",
+            "match": {
+              "location": "stepDefination1.checks_for_the_pagination()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6514671000,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "Admin clicks on the forward arrow",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_forward_arrow()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104414500,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "Admin navigates to the next page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_next_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11590248900,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "Clicks on the backward arrow",
+            "match": {
+              "location": "stepDefination1.clicks_on_the_backward_arrow()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111777800,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "Admin navigates to the previous page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_previous_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Verify the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14986100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on login page of uniformstore application",
+            "match": {
+              "location": "stepDefination1.admin_is_on_login_page_of_uniformstore_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4369562500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "stepDefination1.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2319363000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks on login button",
+            "match": {
+              "location": "stepDefination1.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47454800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin navigates to the dashboard page of the uniformstore",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_dashboard_page_of_the_uniformstore()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6267689300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin clicks on the Catalog option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Catalog_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 823009000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin clicks on the Manufacturers option",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_Manufacturers_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49361000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Admin navigates to the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_navigates_to_the_Manufacturers_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:11:35.710Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5507395700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.initialization()"
+            }
+          }
+        ],
+        "line": 108,
+        "name": "Verify the Bulk action and Delete button on the Manufacturers page",
+        "description": "",
+        "id": "automation-testing-for-uniformstore-manufacturers-page;verify-the-bulk-action-and-delete-button-on-the-manufacturers-page",
+        "after": [
+          {
+            "result": {
+              "duration": 370693000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookclass1.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25189500,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "Admin is on the Manufacturers page",
+            "match": {
+              "location": "stepDefination1.admin_is_on_the_Manufacturers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6138124100,
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "Admin clicks on the checkbox in the title bar and all checkboxes should be selected",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_the_checkbox_in_the_title_bar_and_all_checkboxes_should_be_selected()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3124994200,
+              "status": "passed"
+            },
+            "line": 111,
+            "name": "Again clicks on the checkbox in the title bar and all checkboxes should be deselected",
+            "match": {
+              "location": "stepDefination1.again_clicks_on_the_checkbox_in_the_title_bar_and_all_checkboxes_should_be_deselected()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6322750700,
+              "status": "passed"
+            },
+            "line": 112,
+            "name": "Admin clicks on one or more checkboxes in the Manufacturers list",
+            "match": {
+              "location": "stepDefination1.admin_clicks_on_one_or_more_checkboxes_in_the_Manufacturers_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6130413900,
+              "status": "passed"
+            },
+            "line": 113,
+            "name": "Checkboxes should be selected",
+            "match": {
+              "location": "stepDefination1.checkboxes_should_be_selected()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3197888500,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "Clicks on the delete button",
+            "match": {
+              "location": "stepDefination1.clicks_on_the_delete_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2017067300,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "Accepts the alert",
+            "match": {
+              "location": "stepDefination1.accepts_the_alert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1741325500,
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "Admin will able to see the validation message of Modification",
+            "match": {
+              "location": "stepDefination1.admin_will_able_to_see_the_validation_message_of_Modification()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Automation Testing for Uniformstore Manufacturers Page",
+    "description": "",
+    "id": "automation-testing-for-uniformstore-manufacturers-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Sprint2.feature",
+    "tags": []
+  }
+]
