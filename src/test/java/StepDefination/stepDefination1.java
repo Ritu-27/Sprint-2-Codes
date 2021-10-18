@@ -36,12 +36,12 @@ public class stepDefination1 {
 		}
 	}
 
-	@When("Admin enters the username and password")
-	public void admin_enters_the_username_and_password() {
+	@When("Admin enters the username {string} and password {string}")
+	public void admin_enters_the_username_and_password(String username, String password) {
 		try {
-			driver.findElement(By.xpath("//*[@id='input-username']")).sendKeys("admin");
+			driver.findElement(By.xpath("//*[@id='input-username']")).sendKeys(username);
 			Thread.sleep(2000);
-			driver.findElement(By.xpath("//*[@id='input-password']")).sendKeys("admin@123");
+			driver.findElement(By.xpath("//*[@id='input-password']")).sendKeys(password);
 			Thread.sleep(2000);
 			System.out.println("Entered Username and Password");
 		}
@@ -68,9 +68,7 @@ public class stepDefination1 {
 	@Then("Admin navigates to the dashboard page of the uniformstore")
 	public void admin_navigates_to_the_dashboard_page_of_the_uniformstore() {
 		try {
-	  // Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"content\"]/div[1]/div/h1")).isDisplayed());
-			//Boolean Display = driver.findElement(By.xpath("//*[@id=\"content\"]/div[1]/div/h1")).isDisplayed();
-	   //System.out.println("Element displayed is :"+Display);
+	  
 			
 			String actualtext5 = driver.findElement(By.xpath("//*[@id='content']/div[1]/div/h1")).getText();
 			String expectedtext5 = "Dashboard";
@@ -89,7 +87,7 @@ public class stepDefination1 {
 	@When("Admin clicks on the Catalog option")
 	public void admin_clicks_on_the_Catalog_option() {
 	    try {
-	    	//driver.findElement(By.xpath("//*[@id=\"catalog\"]/a/span")).click();
+	    	
 	    	driver.findElement(By.id("button-menu")).click();
             System.out.println("Menu Bar");
             Thread.sleep(3000);
@@ -119,8 +117,7 @@ public class stepDefination1 {
 	@Then("Admin navigates to the Manufacturers page")
 	public void admin_navigates_to_the_Manufacturers_page() {
 	    try {
-	    	//Boolean Display = driver.findElement(By.xpath("//*[@id=\"content\"]/div[1]/div/h1")).isDisplayed();
-	 	   //System.out.println("Element displayed is :"+Display);
+	    	
 	    	String actualtext6 = driver.findElement(By.xpath("//*[@id='content']/div[1]/div/h1")).getText();
 			String expectedtext6 = "Manufacturers";
 			Assert.assertEquals(actualtext6, expectedtext6);
@@ -137,8 +134,7 @@ public class stepDefination1 {
 	@Given("Admin is on the Manufacturers page")
 	public void admin_is_on_the_Manufacturers_page() {
 		try {
-	    	//Boolean Display = driver.findElement(By.xpath("//*[@id=\"content\"]/div[1]/div/h1")).isDisplayed();
-	 	   //System.out.println("Element displayed is :"+Display);
+	    	
 			String actualtext7 = driver.findElement(By.xpath("//*[@id='content']/div[1]/div/h1")).getText();
 			String expectedtext7 = "Manufacturers";
 			Assert.assertEquals(actualtext7, expectedtext7);
@@ -203,7 +199,9 @@ public class stepDefination1 {
 	    		
 	    		}
 	    		else
+	    		{
 	    			System.out.println("Checkbox is default not checked");
+	    }
 	    }
 	    catch(Exception e) {
 			System.out.println("Checkbox is default not checked"+e);
@@ -221,7 +219,7 @@ public class stepDefination1 {
 	    }
 	    catch(Exception e) {
 			System.out.println("Not able to enter the sort order"+e);
-	    	//Assert.fail();
+	    	Assert.fail();
 	    }
 	}
 
@@ -243,10 +241,7 @@ public class stepDefination1 {
 		  
 		   
 		   try {
-			  // WebElement element = driver.findElement(By.xpath("//*[contains(text(),'Success')]"));
-			   
-			   //boolean flag = driver.findElement(By.xpath("//*[contains(text(),'Success')]")).isDisplayed();
-			  // System.out.println(flag);
+			  
 		  if(isDisplayed())
 		  {
 			   System.out.println("Valid Message");
@@ -434,7 +429,11 @@ public class stepDefination1 {
 		 {
 			 System.out.println("Able to see the searched folder on the image page");	 
 		 }
-		
+		 else
+		 {
+			 System.out.println("Not able to see the searched folder on the image page");	 
+			
+		 }
 	   }
 		 catch(Exception e) {
 				System.out.println("Not able to see the searched folder or image on the page"+e);
@@ -459,8 +458,7 @@ public class stepDefination1 {
 	@When("Admin selects the foldername or imagename")
 	public void admin_selects_the_foldername_or_imagename() {
 		try {
-		//driver.findElement(By.xpath("//input[@value='catalog/Gloves']")).click();	
-		//Thread.sleep(1000); 
+		
 		driver.findElement(By.xpath("//*[@id='modal-image']/div/div/div[2]/div[2]/div[2]/label")).click();
 		Thread.sleep(1000); 
 		System.out.println("Selected the folder name");
@@ -538,7 +536,11 @@ public class stepDefination1 {
 		{
 			System.out.println("Pagination Exists");	
 		}
-		
+		else
+		{
+			System.out.println("Pagination not Exists");
+			
+		}
 		
 		
 		}
@@ -569,6 +571,11 @@ public class stepDefination1 {
 			if(pagination11)
 			{
 			System.out.println("Navigated to the next page");
+			}
+			else 
+			{
+				System.out.println("Not navigated to the next page");
+				
 			}
 		}
 		
@@ -602,7 +609,11 @@ try {
 			{
 			System.out.println("Navigated to the previous page");
 			}
-			
+			else 
+			{
+				System.out.println("Not navigated to the previous page");
+				
+			}
 			}
 			catch(Exception e) {
 				System.out.println("Not able to navigate to the previous page"+e);
@@ -712,6 +723,11 @@ try {
 			  
 			   System.out.println(" Sort Order is arranged in descending order");
 				}
+			  else 
+			  {
+				  System.out.println(" Sort Order is not arranged in descending order"); 
+				 
+			  }
 		}
 				
 				
@@ -748,7 +764,11 @@ try {
 			   {
 				   System.out.println("Sort order is arranged in ascending order");  
 			   }
-			 
+			   else
+			   {
+				   System.out.println("Sort order is not arranged in ascending order"); 
+				 
+			   }
 				}
 				
 				
@@ -1055,12 +1075,12 @@ try {
 	public void admin_will_able_to_see_the_validation_message_of_Modification() {
 		try {
 		String actual5 = driver.findElement(By.xpath("//*[@id='content']/div[2]/div[1]")).getText();
-		//System.out.println(actual5);
+		
 		String expected5 = "Success: You have modified manufacturers!";
 		System.out.println(actual5);
 		Assert.assertTrue(actual5.contains(expected5));
-		//Assert.assertTrue(expected5.contains(actual5));
-		//System.out.println(actual5); 
+		
+		 
 		}
 		  catch(Exception e) {
 				System.out.println("Not able to see the validation message"+e);

@@ -109,11 +109,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Admin enters the username and password",
+  "name": "Admin enters the username \"admin\" and password \"admin@123\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepDefination1.admin_enters_the_username_and_password()"
+  "location": "stepDefination1.admin_enters_the_username_and_password(String,String)"
 });
 formatter.result({
   "status": "passed"
@@ -275,11 +275,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Admin enters the username and password",
+  "name": "Admin enters the username \"admin\" and password \"admin@123\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepDefination1.admin_enters_the_username_and_password()"
+  "location": "stepDefination1.admin_enters_the_username_and_password(String,String)"
 });
 formatter.result({
   "status": "passed"
@@ -441,11 +441,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Admin enters the username and password",
+  "name": "Admin enters the username \"admin\" and password \"admin@123\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepDefination1.admin_enters_the_username_and_password()"
+  "location": "stepDefination1.admin_enters_the_username_and_password(String,String)"
 });
 formatter.result({
   "status": "passed"
@@ -607,11 +607,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Admin enters the username and password",
+  "name": "Admin enters the username \"admin\" and password \"admin@123\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepDefination1.admin_enters_the_username_and_password()"
+  "location": "stepDefination1.admin_enters_the_username_and_password(String,String)"
 });
 formatter.result({
   "status": "passed"
@@ -773,11 +773,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Admin enters the username and password",
+  "name": "Admin enters the username \"admin\" and password \"admin@123\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepDefination1.admin_enters_the_username_and_password()"
+  "location": "stepDefination1.admin_enters_the_username_and_password(String,String)"
 });
 formatter.result({
   "status": "passed"
@@ -939,11 +939,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Admin enters the username and password",
+  "name": "Admin enters the username \"admin\" and password \"admin@123\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepDefination1.admin_enters_the_username_and_password()"
+  "location": "stepDefination1.admin_enters_the_username_and_password(String,String)"
 });
 formatter.result({
   "status": "passed"
@@ -1223,11 +1223,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Admin enters the username and password",
+  "name": "Admin enters the username \"admin\" and password \"admin@123\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepDefination1.admin_enters_the_username_and_password()"
+  "location": "stepDefination1.admin_enters_the_username_and_password(String,String)"
 });
 formatter.result({
   "status": "passed"
@@ -1549,11 +1549,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Admin enters the username and password",
+  "name": "Admin enters the username \"admin\" and password \"admin@123\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepDefination1.admin_enters_the_username_and_password()"
+  "location": "stepDefination1.admin_enters_the_username_and_password(String,String)"
 });
 formatter.result({
   "status": "passed"
@@ -1779,11 +1779,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Admin enters the username and password",
+  "name": "Admin enters the username \"admin\" and password \"admin@123\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepDefination1.admin_enters_the_username_and_password()"
+  "location": "stepDefination1.admin_enters_the_username_and_password(String,String)"
 });
 formatter.result({
   "status": "passed"
@@ -1925,11 +1925,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Admin enters the username and password",
+  "name": "Admin enters the username \"admin\" and password \"admin@123\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepDefination1.admin_enters_the_username_and_password()"
+  "location": "stepDefination1.admin_enters_the_username_and_password(String,String)"
 });
 formatter.result({
   "status": "passed"
@@ -2071,11 +2071,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Admin enters the username and password",
+  "name": "Admin enters the username \"admin\" and password \"admin@123\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepDefination1.admin_enters_the_username_and_password()"
+  "location": "stepDefination1.admin_enters_the_username_and_password(String,String)"
 });
 formatter.result({
   "status": "passed"
@@ -2207,11 +2207,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Admin enters the username and password",
+  "name": "Admin enters the username \"admin\" and password \"admin@123\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepDefination1.admin_enters_the_username_and_password()"
+  "location": "stepDefination1.admin_enters_the_username_and_password(String,String)"
 });
 formatter.result({
   "status": "passed"
@@ -2353,11 +2353,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Admin enters the username and password",
+  "name": "Admin enters the username \"admin\" and password \"admin@123\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepDefination1.admin_enters_the_username_and_password()"
+  "location": "stepDefination1.admin_enters_the_username_and_password(String,String)"
 });
 formatter.result({
   "status": "passed"

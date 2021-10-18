@@ -1,8 +1,8 @@
 Feature: Automation Testing for Uniformstore Manufacturers Page
 
-  Background: Automate the login page
+  Background: Automate the login page 
     Given Admin is on login page of uniformstore application
-    When Admin enters the username and password
+    When Admin enters the username "admin" and password "admin@123"
     And Clicks on login button
     Then Admin navigates to the dashboard page of the uniformstore
     When Admin clicks on the Catalog option
@@ -61,7 +61,7 @@ Feature: Automation Testing for Uniformstore Manufacturers Page
       | name1  |
       | Blazer |
 
-  
+ 
   Scenario: Automate the Sorting functionality on the Manufacturers page
     Given Admin is on the Manufacturers page
     When Admin clicks on the Manufacturers name heading
@@ -95,7 +95,7 @@ Feature: Automation Testing for Uniformstore Manufacturers Page
     When Clicks on the cancel button
     Then Admin navigates back to the Manufacturers page
 
-  
+ 
   Scenario: Automate the Pagination functionality on the Manufacturers page
     Given Admin is on the Manufacturers page
     And Checks for the pagination
@@ -104,7 +104,7 @@ Feature: Automation Testing for Uniformstore Manufacturers Page
     And Clicks on the backward arrow
     Then Admin navigates to the previous page
 
-  
+ 
   Scenario: Automate the Bulk action and Delete button on the Manufacturers page
     Given Admin is on the Manufacturers page
     When Admin clicks on the checkbox in the title bar and all checkboxes should be selected

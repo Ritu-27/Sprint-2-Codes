@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="13" time="448.526909">
-    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the Add New button on the Manufacturers Page" time="27.18629">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="13" time="456.996024">
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the Add New button on the Manufacturers Page" time="27.066198">
         <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
-When Admin enters the username and password.................................passed
+When Admin enters the username "admin" and password "admin@123".............passed
 And Clicks on login button..................................................passed
 Then Admin navigates to the dashboard page of the uniformstore..............passed
 When Admin clicks on the Catalog option.....................................passed
@@ -18,9 +18,9 @@ And clicks on the Save button...............................................pass
 Then Admin will able to see the validationmessage...........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the Add New button on the Manufacturers Page 2" time="24.965589">
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the Add New button on the Manufacturers Page 2" time="24.631599">
         <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
-When Admin enters the username and password.................................passed
+When Admin enters the username "admin" and password "admin@123".............passed
 And Clicks on login button..................................................passed
 Then Admin navigates to the dashboard page of the uniformstore..............passed
 When Admin clicks on the Catalog option.....................................passed
@@ -36,9 +36,9 @@ And clicks on the Save button...............................................pass
 Then Admin will able to see the validationmessage...........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the Add New button on the Manufacturers Page 3" time="25.228415">
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the Add New button on the Manufacturers Page 3" time="25.367148">
         <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
-When Admin enters the username and password.................................passed
+When Admin enters the username "admin" and password "admin@123".............passed
 And Clicks on login button..................................................passed
 Then Admin navigates to the dashboard page of the uniformstore..............passed
 When Admin clicks on the Catalog option.....................................passed
@@ -54,9 +54,9 @@ And clicks on the Save button...............................................pass
 Then Admin will able to see the validationmessage...........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the Add New button on the Manufacturers Page 4" time="24.401149">
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the Add New button on the Manufacturers Page 4" time="25.778596">
         <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
-When Admin enters the username and password.................................passed
+When Admin enters the username "admin" and password "admin@123".............passed
 And Clicks on login button..................................................passed
 Then Admin navigates to the dashboard page of the uniformstore..............passed
 When Admin clicks on the Catalog option.....................................passed
@@ -72,9 +72,9 @@ And clicks on the Save button...............................................pass
 Then Admin will able to see the validationmessage...........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the Add New button on the Manufacturers Page 5" time="24.905394">
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the Add New button on the Manufacturers Page 5" time="25.129843">
         <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
-When Admin enters the username and password.................................passed
+When Admin enters the username "admin" and password "admin@123".............passed
 And Clicks on login button..................................................passed
 Then Admin navigates to the dashboard page of the uniformstore..............passed
 When Admin clicks on the Catalog option.....................................passed
@@ -90,9 +90,9 @@ And clicks on the Save button...............................................pass
 Then Admin will able to see the validationmessage...........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the Add New button on the Manufacturers Page 6" time="23.723093">
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the Add New button on the Manufacturers Page 6" time="25.146715">
         <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
-When Admin enters the username and password.................................passed
+When Admin enters the username "admin" and password "admin@123".............passed
 And Clicks on login button..................................................passed
 Then Admin navigates to the dashboard page of the uniformstore..............passed
 When Admin clicks on the Catalog option.....................................passed
@@ -108,9 +108,9 @@ And clicks on the Save button...............................................pass
 Then Admin will able to see the validationmessage...........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the Image Manager page" time="76.082998">
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the Image Manager page" time="76.163635">
         <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
-When Admin enters the username and password.................................passed
+When Admin enters the username "admin" and password "admin@123".............passed
 And Clicks on login button..................................................passed
 Then Admin navigates to the dashboard page of the uniformstore..............passed
 When Admin clicks on the Catalog option.....................................passed
@@ -142,9 +142,9 @@ And Clicks on the backward arrow of pagination..............................pass
 Then Admin navigates to the previous page of the Image Manager..............passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the Sorting functionality on the Manufacturers page" time="44.773572">
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the Sorting functionality on the Manufacturers page" time="47.66558">
         <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
-When Admin enters the username and password.................................passed
+When Admin enters the username "admin" and password "admin@123".............passed
 And Clicks on login button..................................................passed
 Then Admin navigates to the dashboard page of the uniformstore..............passed
 When Admin clicks on the Catalog option.....................................passed
@@ -161,9 +161,9 @@ And Again clicks on the Sort Order heading..................................pass
 Then Order should be arranges in ascending order............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the Edit button and Save button on the Manufacturers page" time="32.100737">
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the Edit button and Save button on the Manufacturers page" time="34.309535">
         <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
-When Admin enters the username and password.................................passed
+When Admin enters the username "admin" and password "admin@123".............passed
 And Clicks on login button..................................................passed
 Then Admin navigates to the dashboard page of the uniformstore..............passed
 When Admin clicks on the Catalog option.....................................passed
@@ -177,9 +177,9 @@ And clicks on the Save button...............................................pass
 Then Admin will able to see the validationmessage...........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the Edit button and Save button on the Manufacturers page 2" time="31.050387">
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the Edit button and Save button on the Manufacturers page 2" time="32.640189">
         <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
-When Admin enters the username and password.................................passed
+When Admin enters the username "admin" and password "admin@123".............passed
 And Clicks on login button..................................................passed
 Then Admin navigates to the dashboard page of the uniformstore..............passed
 When Admin clicks on the Catalog option.....................................passed
@@ -193,9 +193,9 @@ And clicks on the Save button...............................................pass
 Then Admin will able to see the validationmessage...........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the cancel button on the Add Manufacturers page" time="22.424726">
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the cancel button on the Add Manufacturers page" time="21.918233">
         <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
-When Admin enters the username and password.................................passed
+When Admin enters the username "admin" and password "admin@123".............passed
 And Clicks on login button..................................................passed
 Then Admin navigates to the dashboard page of the uniformstore..............passed
 When Admin clicks on the Catalog option.....................................passed
@@ -208,9 +208,9 @@ When Clicks on the cancel button............................................pass
 Then Admin navigates back to the Manufacturers page.........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the Pagination functionality on the Manufacturers page" time="42.44721">
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the Pagination functionality on the Manufacturers page" time="42.335166">
         <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
-When Admin enters the username and password.................................passed
+When Admin enters the username "admin" and password "admin@123".............passed
 And Clicks on login button..................................................passed
 Then Admin navigates to the dashboard page of the uniformstore..............passed
 When Admin clicks on the Catalog option.....................................passed
@@ -224,9 +224,9 @@ And Clicks on the backward arrow............................................pass
 Then Admin navigates to the previous page...................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the Bulk action and Delete button on the Manufacturers page" time="49.237349">
+    <testcase classname="Automation Testing for Uniformstore Manufacturers Page" name="Automate the Bulk action and Delete button on the Manufacturers page" time="48.843587">
         <system-out><![CDATA[Given Admin is on login page of uniformstore application....................passed
-When Admin enters the username and password.................................passed
+When Admin enters the username "admin" and password "admin@123".............passed
 And Clicks on login button..................................................passed
 Then Admin navigates to the dashboard page of the uniformstore..............passed
 When Admin clicks on the Catalog option.....................................passed
